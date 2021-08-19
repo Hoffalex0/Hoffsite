@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  background-image: url("cool-background.png");
+}
+img {
+  filter: blur(6px);
+  width: 100%;
+}
+.top {
+}
+.over {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  margin: 1% 20% 20% 20%;
+  padding: 5%;
+  background-color: darkgray;
+  border: 5px solid gray;
+  font-size: 50px;
+  font-weight: bold;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: limegreen;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: white;
+  color: black;
+}
+
+ul.topnav li a.active {
+  background-color: lightgreen;
+  color: black;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
