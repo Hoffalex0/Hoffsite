@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-image: url("cool-background.png");
+  background-color: chartreuse;
 }
 
 ul.topnav {
@@ -44,7 +44,7 @@ ul.topnav li.right {
     float: none;
   }
 }
-.MOIN {
+.moin {
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -60,10 +60,12 @@ ul.topnav li.right {
 }
 .newsroom {
   border: 5px solid lightgray;
-  color: white;
-  background-color: black;
+  color: darkgreen;
+  background-color: white;
   padding: 20%;
   text-align: left;
+  font-weight: bold;
+
 }
 .down {
   background: darkgreen;
@@ -75,3 +77,4 @@ ul.topnav li.right {
 .down > div {
   border: 5px solid red;
 }
+
