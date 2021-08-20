@@ -56,7 +56,7 @@ ul.topnav li.right {
 .news {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 .newsroom {
   border: 5px solid lightgray;
