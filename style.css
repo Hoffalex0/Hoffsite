@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   background-color: chartreuse;
+  border: lightgray solid 10px;
 }
 
 ul.topnav {
@@ -73,9 +74,12 @@ ul.topnav li.right {
   font-weight: bold;
   display: flex;
   margin: 90% 0% 1% 0%;
+  border: lightgray solid 3px;
 }
 .down > div {
   margin-left: 10px;
   margin-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
