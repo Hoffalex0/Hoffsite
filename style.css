@@ -3,6 +3,9 @@ body {
   background-color: chartreuse;
   border: lightgray solid 10px;
 }
+.Arbeiter{
+  width: 100%;
+}
 
 ul.topnav {
   list-style-type: none;
