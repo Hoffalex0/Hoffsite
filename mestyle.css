@@ -56,6 +56,17 @@ ul.topnav li.right {
   border: lightgray solid 3px;
   color: white;
   padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.list > table{
+  width: 100%;
+  border-collapse: collapse;
+  padding: 15px;
+  overflow-x: auto;
+}
+td{
+  padding: 15px;
 }
 .friends{
   background-color: darkgreen;
