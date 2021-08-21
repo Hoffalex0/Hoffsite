@@ -120,6 +120,18 @@ td{
   padding-top: 50px;
   padding-bottom: 50px;
 }
+/* Blog Styling */
+.articlebox{
+  display: flex;
+} 
+.articlebox > div{
+  background-color: yellow;
+  border: lightgray solid 3px;
+  color: black;
+  padding: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 /* Private Styling */
 @media screen and (max-width: 600px) {
   input[type="password"] {
