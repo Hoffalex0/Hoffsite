@@ -3,6 +3,7 @@
 body {
   font-family: 'Roboto Mono', monospace;
   background-color: chartreuse;
+  overflow-x: hidden;
 }
 
 ul.topnav {
@@ -151,7 +152,6 @@ input[type="password"] {
   width: 100%;
   border-collapse: collapse;
   padding: 15px;
-  overflow-x: auto;
 }
 td{
   padding: 15px;
