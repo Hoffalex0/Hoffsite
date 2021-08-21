@@ -114,10 +114,10 @@ td{
   border: lightgray solid 3px;
 }
 .down > div {
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 /* Private Styling */
 @media screen and (max-width: 600px) {
