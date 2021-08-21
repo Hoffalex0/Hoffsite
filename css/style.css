@@ -139,6 +139,7 @@ input[type="password"] {
   border: lightgray solid 3px;
   color: white;
   padding: 30px;
+  margin-top: 10px;
 }
 .list{
   background-color: darkgreen;
