@@ -173,4 +173,12 @@ td{
   margin-right: 9%;
 
 }
+.other{
+  background-color: darkgreen;
+  border: lightgray solid 3px;
+  color: white;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
