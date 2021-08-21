@@ -165,4 +165,12 @@ td{
 .friends > img{
   width: 100%;
 }
+.friendnames{
+  display: flex;
+  flex-direction: row;
+}
+.friendnames > div{
+  margin-right: 9%;
+
+}
 
