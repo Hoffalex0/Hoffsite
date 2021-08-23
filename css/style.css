@@ -127,22 +127,24 @@ td{
     'header header header header header header'
     'menu main main main right right'
     'menu footer footer footer footer footer';
-  grid-gap: 10px;
-  background-color: #2196F3;
+  grid-gap: 20px;
+  background-color: green;
   padding: 10px;
 } 
 .articlebox > div{
   background-color: white;
   color: black;
-  border: lightgray solid 3px;
+  border: lightgray solid 2px;
   text-align: left;
-  pad: 20px;
+  padding: 100px;
 }
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
+
+
 /* Private Styling */
 @media screen and (max-width: 600px) {
   input[type="password"] {
