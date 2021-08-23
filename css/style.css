@@ -122,15 +122,18 @@ td{
 }
 /* Blog Styling */
 .articlebox{
-  display: flex;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-areas:
+  'first first first side'
+  'middle middle middle';
 } 
 .articlebox > div{
-  background-color: yellow;
-  border: lightgray solid 3px;
+  background-color: white;
   color: black;
-  padding: 100px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  border: lightgray solid 3px;
+  text-align: left;
+  
 }
 /* Private Styling */
 @media screen and (max-width: 600px) {
