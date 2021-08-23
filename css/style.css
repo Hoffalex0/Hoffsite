@@ -104,7 +104,7 @@ td{
   padding: 20%;
   text-align: left;
   font-weight: bold;
-
+  width: 50%;
 }
 .down {
   background: darkgreen;
@@ -122,6 +122,7 @@ td{
 }
 /* Blog Styling */
 .articlebox{
+  width: auto;
   display: grid;
   grid-template-areas:
     'header header header header header header'
