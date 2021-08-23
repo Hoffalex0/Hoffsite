@@ -138,11 +138,11 @@ td{
   text-align: left;
   padding: 100px;
 }
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
+.article1 { grid-area: header; }
+.article2 { grid-area: menu; }
+.article3 { grid-area: main; }
+.article4 { grid-area: right; }
+.article5 { grid-area: footer; }
 
 
 /* Private Styling */
