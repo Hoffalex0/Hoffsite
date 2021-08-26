@@ -31,6 +31,13 @@
       <div class="newsroom"> über mich</div>
     </div>
 
+    <div id="ausgabe"></div>
+<script>
+var images = ["/img/random/benches.png", "/img/random/leaves.png", "/img/random/sea.png"];
+var image = images[Math.floor(Math.random() * images.length)];
+document.getElementById("ausgabe").innerHTML = '<img src="' + image + '">';
+</script> 
+
     <div class="down">
       <div>
         Unwichtig:
