@@ -4,6 +4,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   background-color: chartreuse;
   overflow-x: hidden;
+  color: white;
 }
 
 ul.topnav {
@@ -20,9 +21,8 @@ ul.topnav li {
 
 ul.topnav li a {
   display: block;
-  color: white;
   font-size: 16px;
-
+color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -53,13 +53,11 @@ ul.topnav li.right {
 .who{
   background-color: darkgreen;
   border: lightgray solid 3px;
-  color: white;
   padding: 30px;
 }
 .list{
   background-color: darkgreen;
   border: lightgray solid 3px;
-  color: white;
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -76,7 +74,6 @@ td{
 .friends{
   background-color: darkgreen;
   border: lightgray solid 3px;
-  color: white;
   padding: 30px;
 }
 .friends > img{
@@ -84,17 +81,15 @@ td{
 }
 
 .moin {
-  color: white;
   font-weight: bold;
   font-size: 20px;
   padding: 50px;
   border: 5px solid lightgray;
   background: rgb(8, 88, 7);
-  margin-top: 30px;
+  margin-top: 5%;
 }
 .countdown{
   padding: 40px;
-  color: white;
   border: 5px solid lightgray;
   background: rgb(8, 88, 7);
   text-align: center;
@@ -116,6 +111,7 @@ td{
   width: 50%;
 }
 .imagerandom-container {
+  margin-top: 5%;
   display: flex;
   flex-direction: row;
   border: 5px solid lightgray;
@@ -123,8 +119,8 @@ td{
 }
 .imagerandom {
   background-color: darkgreen;
-  color: white;
   padding: 10px;
+  width: 100%;
 }
 .imagerandom > img {
 width: 50%;
@@ -133,7 +129,6 @@ border: darkslateblue solid 5px;
 
 .down {
   background: darkgreen;
-  color: white;
   font-weight: bold;
   display: flex;
   margin: 90% 0% 1% 0%;
@@ -188,14 +183,12 @@ input[type="password"] {
 .who{
   background-color: darkgreen;
   border: lightgray solid 3px;
-  color: white;
   padding: 30px;
   margin-top: 10px;
 }
 .list{
   background-color: darkgreen;
   border: lightgray solid 3px;
-  color: white;
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -211,7 +204,6 @@ td{
 .friends{
   background-color: darkgreen;
   border: lightgray solid 3px;
-  color: white;
   padding: 30px;
 }
 .friends > img{
@@ -228,7 +220,6 @@ td{
 .other{
   background-color: darkgreen;
   border: lightgray solid 3px;
-  color: white;
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -236,7 +227,6 @@ td{
 .music-film{
   background-color: darkgreen;
   border: lightgray solid 3px;
-  color: white;
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
