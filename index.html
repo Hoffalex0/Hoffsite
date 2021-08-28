@@ -49,13 +49,13 @@ var x = setInterval(function() {
       <div class="newsroom"> über mich</div>
     </div>
 
-    <div id="ausgabe"></div>
+    <div id="ausgabe" class="imagerandom"><p>Dies ist ein zufälliges Bild aus einer Liste an Herbst-Bildern. Lade die Seite neu, um ein neues Bild zu bekommen.</p></div>
 <script>
 var images = ["/img/random/benches.png", "/img/random/leaves.png", "/img/random/sea.png"];
 var image = images[Math.floor(Math.random() * images.length)];
 document.getElementById("ausgabe").innerHTML = '<img src="' + image + '">';
 </script> 
-
+  
     <div class="down">
       <div>
         Unwichtig:
