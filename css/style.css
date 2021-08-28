@@ -2,9 +2,9 @@
 
 body {
   font-family: 'Roboto Mono', monospace;
-  background-color: chartreuse;
+  background-color: limegreen;
   overflow-x: hidden;
-  color: white;
+  color: darkgreen;
 }
 
 ul.topnav {
@@ -13,6 +13,7 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: limegreen;
+  border: lightgreen solid 2px;
 }
 
 ul.topnav li {
@@ -50,48 +51,20 @@ ul.topnav li.right {
   }
 }
 
-.who{
-  background-color: darkgreen;
-  border: lightgray solid 3px;
-  padding: 30px;
-}
-.list{
-  background-color: darkgreen;
-  border: lightgray solid 3px;
-  padding: 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.list > table{
-  width: 100%;
-  border-collapse: collapse;
-  padding: 15px;
-  overflow-x: auto;
-}
-td{
-  padding: 15px;
-}
-.friends{
-  background-color: darkgreen;
-  border: lightgray solid 3px;
-  padding: 30px;
-}
-.friends > img{
-  width: 100%;
-}
-
 .moin {
   font-weight: bold;
   font-size: 20px;
   padding: 50px;
-  border: 5px solid lightgray;
-  background: rgb(8, 88, 7);
+  background: lightgreen;
   margin-top: 5%;
+  width: 50%;
 }
 .countdown{
   padding: 40px;
-  border: 5px solid lightgray;
-  background: rgb(8, 88, 7);
+  width: 50%;
+  margin-right: 0;
+  margin-left: auto;
+  background: lightgreen;
   text-align: center;
   font-size: x-large;
   font-weight: bold;
@@ -102,23 +75,23 @@ td{
   justify-content: center;
 }
 .newsroom {
-  border: 5px solid lightgray;
   color: darkgreen;
-  background-color: white;
-  padding: 20%;
+  background-color: lightgreen;
   text-align: left;
   font-weight: bold;
+  text-align: center;
   width: 50%;
+  padding: 5%;
+  margin: 0.5%;
 }
 .imagerandom-container {
   margin-top: 5%;
   display: flex;
   flex-direction: row;
-  border: 5px solid lightgray;
   flex: 1;
 }
 .imagerandom {
-  background-color: darkgreen;
+  background-color: lightgreen;
   padding: 10px;
   width: 100%;
 }
@@ -128,11 +101,10 @@ border: darkslateblue solid 5px;
 }
 
 .down {
-  background: darkgreen;
+  background: lightgreen;
   font-weight: bold;
   display: flex;
   margin: 90% 0% 1% 0%;
-  border: lightgray solid 3px;
 }
 .down > div {
   margin-left: 60px;
