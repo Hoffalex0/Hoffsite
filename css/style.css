@@ -119,6 +119,7 @@ td{
   display: flex;
   flex-direction: row;
   border: 5px solid lightgray;
+  flex: 1;
 }
 .imagerandom {
   background-color: darkgreen;
