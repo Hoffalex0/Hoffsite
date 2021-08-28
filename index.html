@@ -48,8 +48,8 @@ var x = setInterval(function() {
       <div class="newsroom">Privater Bereich</div>
       <div class="newsroom"> über mich</div>
     </div>
-
-    <div id="ausgabe" class="imagerandom"><p>Dies ist ein zufälliges Bild aus einer Liste an Herbst-Bildern. Lade die Seite neu, um ein neues Bild zu bekommen.</p></div>
+    <div class="imagerandom-container">
+    <div id="ausgabe" class="imagerandom"></div>
 <script>
 var images = ["/img/random/benches.png", "/img/random/leaves.png", "/img/random/sea.png", "/img/random/blätter.png",
  "/img/random/chestnut.png", "/img/random/dolomiten.png", "/img/random/halloween_jack-o-lantern.png", "/img/random/jack-o-lanterns.png", "/img/random/pilze.png"
@@ -57,6 +57,8 @@ var images = ["/img/random/benches.png", "/img/random/leaves.png", "/img/random/
 var image = images[Math.floor(Math.random() * images.length)];
 document.getElementById("ausgabe").innerHTML = '<img src="' + image + '">';
 </script> 
+<div class="imagerandom"><h1>Dies ist ein zufälliges Bild aus einer Liste an Herbst-Bildern. Lade die Seite neu, um ein neues Bild zu bekommen.</h1></div>
+</div>
   
     <div class="down">
       <div>

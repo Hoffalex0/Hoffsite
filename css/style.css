@@ -115,19 +115,21 @@ td{
   font-weight: bold;
   width: 50%;
 }
-.imagerandom {
-  border: 5px solid lightgray;
-  background-color: darkgreen;
-  padding: 70px;
+.imagerandom-container {
   display: flex;
   flex-direction: row;
+  border: 5px solid lightgray;
+}
+.imagerandom {
+  background-color: darkgreen;
   color: white;
+  padding: 10px;
 }
 .imagerandom > img {
 width: 50%;
-height: 90%;
-border: darkslateblue solid 20px;
+border: darkslateblue solid 5px;
 }
+
 .down {
   background: darkgreen;
   color: white;
