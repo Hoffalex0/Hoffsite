@@ -5,6 +5,7 @@ body {
   background-color: limegreen;
   overflow-x: hidden;
   color: darkgreen;
+  margin: auto;
 }
 
 ul.topnav {
@@ -125,7 +126,7 @@ border: darkslateblue solid 5px;
     'menu main main main right right'
     'menu footer footer footer footer footer';
   grid-gap: 20px;
-  background-color: green;
+  background-color: lightgreen;;
   padding: 10px;
 } 
 .articlebox > div{
@@ -157,14 +158,12 @@ input[type="password"] {
 
 /* Me styling */
 .who{
-  background-color: darkgreen;
-  border: lightgray solid 3px;
+  background-color: lightgreen;
   padding: 30px;
   margin-top: 10px;
 }
 .list{
-  background-color: darkgreen;
-  border: lightgray solid 3px;
+  background-color: lightgreen;
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -178,8 +177,7 @@ td{
   padding: 15px;
 }
 .friends{
-  background-color: darkgreen;
-  border: lightgray solid 3px;
+  background-color: lightgreen;
   padding: 30px;
 }
 .friends > img{
@@ -194,15 +192,13 @@ td{
 
 }
 .other{
-  background-color: darkgreen;
-  border: lightgray solid 3px;
+  background-color: lightgreen;
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .music-film{
-  background-color: darkgreen;
-  border: lightgray solid 3px;
+  background-color: lightgreen;
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
