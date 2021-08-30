@@ -85,9 +85,9 @@ ul.topnav li.right {
   text-align: center;
   font-size: x-large;
   font-weight: bold;
+  margin-bottom: 2%;
 }
 .news {
-  margin-top: 2%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
