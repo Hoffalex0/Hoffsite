@@ -46,7 +46,7 @@ ul.topnav li a:hover:not(.active) {
 }
 
 ul.topnav li a.active {
-  background-color: black;
+  background-color: lightslategray;
   color: white;
 }
 
@@ -112,11 +112,11 @@ border: darkslateblue solid 5px;
 }
 
 .down {
-  background: black;
+  background: lightslategray;
   font-weight: bold;
   display: flex;
-  margin: 90% 0% 1% 0%;
-  color: white;
+  margin: 90% 0% 0% 0%;
+  color: black;
 }
 .down > div {
   margin-left: 60px;
