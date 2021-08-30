@@ -10,12 +10,20 @@ body {
   color: darkgreen;
 }
 .colorbody-blog{
-  background-color:royalblue;
+  background-color:dodgerblue;
   color: blue;
 }
 .colorbody-advice{
   background-color: orange;
   color: orangered;
+}
+.colorbody-me{
+  background-color:rgb(216, 137, 213);
+  color: indigo;
+}
+.colorbody-private{
+  background-color:red;
+  color: black;
 }
 
 ul.topnav {
@@ -162,12 +170,12 @@ input[type="password"] {
 
 /* Me styling */
 .who{
-  background-color: lightgreen;
+  background-color:mediumorchid;
   padding: 30px;
   margin-top: 10px;
 }
 .list{
-  background-color: lightgreen;
+  background-color: mediumorchid;
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -181,7 +189,7 @@ td{
   padding: 15px;
 }
 .friends{
-  background-color: lightgreen;
+  background-color: mediumorchid;
   padding: 30px;
 }
 .friends > img{
@@ -196,13 +204,13 @@ td{
 
 }
 .other{
-  background-color: lightgreen;
+  background-color: mediumorchid;
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .music-film{
-  background-color: lightgreen;
+  background-color: mediumorchid;
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
