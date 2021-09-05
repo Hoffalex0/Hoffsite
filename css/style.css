@@ -121,8 +121,10 @@ border: darkslateblue solid 5px;
   background: lightslategray;
   font-weight: bold;
   display: flex;
-  margin: 90% 0% 0% 0%;
+  margin: 5% 0% 0% 0%;
+  border: blanchedalmond solid 3px;
   color: black;
+  flex-wrap: wrap;
 }
 .down > div {
   margin-left: 60px;
@@ -214,5 +216,15 @@ td{
   margin-bottom: 10px;
 }
 /* Advice styling */
-
-
+.advices{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.advices > div {
+  background-color: rgb(255, 223, 204);
+  padding: 1% 20% 5% 1%;
+  color: black;
+  font-weight: bolder;
+}
