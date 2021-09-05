@@ -18,8 +18,8 @@ body {
   color: black;
 }
 .colorbody-me{
-  background-color:rgb(216, 137, 213);
-  color: indigo;
+  background-color: mediumorchid;;
+  color: black;
 }
 .colorbody-private{
   background-color:red;
@@ -168,12 +168,12 @@ input[type="password"] {
 
 /* Me styling */
 .who{
-  background-color:mediumorchid;
+  background-color:rgb(216, 137, 213);
   padding: 30px;
   margin-top: 10px;
 }
 .list{
-  background-color: mediumorchid;
+  background-color: rgb(216, 137, 213);
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -187,7 +187,7 @@ td{
   padding: 15px;
 }
 .friends{
-  background-color: mediumorchid;
+  background-color: rgb(216, 137, 213);
   padding: 30px;
 }
 .friends > img{
@@ -202,13 +202,13 @@ td{
 
 }
 .other{
-  background-color: mediumorchid;
+  background-color: rgb(216, 137, 213);
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .music-film{
-  background-color: mediumorchid;
+  background-color: rgb(216, 137, 213);
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
