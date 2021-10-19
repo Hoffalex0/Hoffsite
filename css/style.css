@@ -132,7 +132,21 @@ border: darkslateblue solid 5px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.knöpfte
+.knöpfe-container{
+  display: flex;
+  flex-direction: row;
+}
+.knöpfe-container > div {
+  background-color: yellow;
+  width: 33%;
+}
+.knöpfe-container > div > button {
+  background-color: red;
+  margin: 30px;
+  width: 80%;
+  height: 70%;
+
+}
 /* Blog Styling */
 .articlebox{
   width: auto;
