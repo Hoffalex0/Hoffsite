@@ -2,4 +2,129 @@
 
 body {
     font-family: 'Zen Kurenaido', monospace;
+    background-color: black;
 }
+.colorbody-index {
+    color: greenyellow;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 2%;
+    box-shadow: 0 0 10px greenyellow;
+  }
+  
+  ul.topnav li {
+    float: left;
+  }
+  
+  ul.topnav li a {
+    display: block;
+    font-size: 16px;
+    color: greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  ul.topnav li a:hover:not(.active) {
+    background-color: lightgray;
+    color: black;
+  }
+  
+  ul.topnav li a.active {
+    background-color: rgb(59, 117, 4);
+    color: greenyellow;
+  }
+  
+  ul.topnav li.right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+      float: none;
+    }
+  }
+  .moin {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+  }
+  .moin2{
+    margin-top: 2%;
+    padding: 40px;
+    width: 50%;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 2%;
+  }
+  .news {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .newsroom {
+    background-color: lightgreen;
+    text-align: left;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    padding: 5%;
+    margin: 0.5%;
+  }
+  .imagerandom-container {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+  .imagerandom {
+    background-color: lightgreen;
+    padding: 10px;
+    width: 100%;
+  }
+  .imagerandom > img {
+  width: 50%;
+  border: darkslateblue solid 5px;
+  }
+  
+  .down {
+    background: lightslategray;
+    font-weight: bold;
+    display: flex;
+    margin: 5% 0% 0% 0%;
+    border: blanchedalmond solid 3px;
+    color: black;
+    flex-wrap: wrap;
+  }
+  .down > div {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .knöpfe-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .knöpfe-container > div {
+    background-color: yellow;
+    width: 33%;
+  }
+  .knöpfe-container > div > button {
+    background-color: red;
+    margin: 30px;
+    width: 80%;
+    height: 70%;
+  
+  }
