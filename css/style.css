@@ -238,7 +238,9 @@ td{
 }
 .advices > div {
   background-color: rgb(255, 223, 204);
-  padding: 1% 20% 5% 1%;
+  padding: 1% 5% 1% 1%;
+  width: 100%;
+  margin-bottom: 1.5%;
   color: black;
   font-weight: bolder;
 }
