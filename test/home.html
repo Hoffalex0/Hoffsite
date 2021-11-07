@@ -13,19 +13,20 @@
     <link rel="stylesheet" href="/test/styling.css" />
   </head>
   <body> 
-    <div class="colorbody-index">
     <ul class="topnav">
-      <li><a class="active" href="/index.html">Home</a></li>
-      <li><a href="/blog.html">Blog</a></li>
-      <li><a href="/advice.html">Empfehlungen</a></li>
-      <li><a href="/me.html">Ich selbst</a></li>
-      <li><a href="/projects.html">Projekte</a></li>
+      <li><a class="active" href="/test/home.html">Home</a></li>
+      <li><a href="/test/home.html">Blog</a></li>
+      <li><a href="/test/home.html">Empfehlungen</a></li>
+      <li><a href="/test/home.html">Ich selbst</a></li>
+      <li><a href="/test/home.html">Projekte</a></li>
     </ul>
-
-    <div class="moin" style="background: greenyellow; color: black;">
+    <div class="colorbody-index">
+    <div class="moin">
       <h2>Willkommen!👋</h2>
+      <hr style="color: lime;">
+      <p id="Status"></p>
     </div>
-    <p class="moin2" style="background: greenyellow;" id="demo"></p>
+
 
 <script>
 var countDownDate = new Date("Oct 25, 2021 00:00:00").getTime();
@@ -36,11 +37,11 @@ var x = setInterval(function() {
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("Status").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Die Seite ist erreichbar";
+    document.getElementById("Status").innerHTML = "Die Seite ist erreichbar!";
   }
 }, 1000);
 </script>
