@@ -22,37 +22,16 @@
     </ul>
     <div class="colorbody-index">
     <div class="moin">
+      <div>
       <h2>Willkommen!👋</h2>
       <hr style="color: lime;">
-      <p id="Status"></p>
+      <p>Diese Seite ist nicht illegal!</p>
     </div>
-
-
-<script>
-var countDownDate = new Date("Oct 25, 2021 00:00:00").getTime();
-var x = setInterval(function() {
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  document.getElementById("Status").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("Status").innerHTML = "Die Seite ist erreichbar!";
-  }
-}, 1000);
-</script>
-
-    <div class="news">
-      <div class="newsroom">Wem gehört eigentlich diese Seite?<br><br><a href="/me.html">Klicke hier, um es herauszufinden</a></div>
-      <div class="newsroom">Gibt es hier etwas zu lesen?<br><br><a href="/blog.html">Klicke hier, um es herauszufinden</a></div>
-    </div>
-    <div class="imagerandom-container">
+      <div>Wem gehört eigentlich diese Seite?<br><br><a href="/me.html">Klicke hier, um es herauszufinden</a></div>
+      <div>Gibt es hier etwas zu lesen?<br><br><a href="/blog.html">Klicke hier, um es herauszufinden</a></div>
+    </div>  
+    <div class="imagerandom-container"></div>
     <div id="ausgabe" class="imagerandom"></div>
-
 <script>
 var images = ["/img/random/benches.png", "/img/random/leaves.png", "/img/random/sea.png", "/img/random/blätter.png",
  "/img/random/chestnut.png", "/img/random/dolomiten.png", "/img/random/halloween_jack-o-lantern.png", "/img/random/jack-o-lanterns.png", "/img/random/pilze.png"

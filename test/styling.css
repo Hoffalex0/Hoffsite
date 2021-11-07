@@ -4,7 +4,7 @@ body {
     font-family: 'Zen Kurenaido', monospace;
     background-color: black;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   .colorbody-index {
     width: 94%;
     margin-left: 3%;
@@ -16,7 +16,8 @@ body {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
-    box-shadow: 0 0 20px lime;
+    border: lime solid 2px;
+    box-shadow: 0 0 25px lime;
 }
 ul.topnav {
     list-style-type: none;
@@ -24,13 +25,15 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     margin-bottom: 2%;
-    box-shadow: 0 0 20px lime;
+    box-shadow: 0 0 25px lime;
+    border: lime solid 2px;
     position: sticky;
     top: 0;
     background-color: black;
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 3%;
   }
   
   ul.topnav li {
@@ -73,26 +76,19 @@ ul.topnav {
   .moin {
     margin-top: 1%;
     font-weight: bold;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 50px;
     text-align: center;
-    width: 50%;
-    border: lime solid 2px;;
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-  .news {
+    width: 70%;
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-wrap: wrap;
   }
-  .newsroom {
-    text-align: left;
-    font-weight: bold;
-    text-align: center;
-    width: 50%;
-    padding: 5%;
-    margin: 0.5%;
+  .moin > div {
+    border: lime solid 3px;
+    padding: 20px;
+    margin-left: 1%;
   }
   .imagerandom-container {
     margin-top: 2%;
