@@ -116,7 +116,9 @@ ul.topnav {
   width: 50%;
   border: darkslateblue solid 5px;
   }
-  
+  .imagerandom > img:hover {
+    box-shadow: 0 0 25px lime;
+  }
   .down {
     background: lightslategray;
     font-weight: bold;
