@@ -163,7 +163,7 @@ border: darkslateblue solid 5px;
   padding: 100px;
 }
 .article1 { grid-area: header; background-image: url("https://cdn.pixabay.com/photo/2016/08/05/09/31/banner-1571858_1280.jpg");}
-.article2 { grid-area: menu; background-color: lightskyblue;}
+.article2 { grid-area: menu; background-image: url("https://cdn.pixabay.com/photo/2016/08/05/09/31/banner-1571858_1280.jpg");}
 .article3 { grid-area: main; background-color: lightskyblue;}
 .article4 { grid-area: right; background-color: lightskyblue;}
 .article5 { grid-area: footer; background-color: lightskyblue;}
