@@ -10,6 +10,11 @@ body {
     margin-left: 3%;
     margin-right: 3%;
   }
+  .moin {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 94%;
+  }
 }
 .colorbody-index {
     color: lime;
@@ -48,6 +53,7 @@ ul.topnav {
     padding: 14px 16px;
     text-decoration: none;
     font-weight: bold;
+    font-size: larger;
   }
   
   ul.topnav li a:hover:not(.active) {
@@ -87,14 +93,20 @@ ul.topnav {
   }
   .moin > div {
     border: lime solid 3px;
-    padding: 20px;
-    margin-left: 1%;
+    padding: 10px;
+    margin: 1%;
+    height: 15%;
   }
   .imagerandom-container {
+    border: lime solid 3px;
     margin-top: 2%;
     display: flex;
     flex-direction: row;
     flex: 1;
+    margin-bottom: 3%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%  ;
   }
   .imagerandom {
     padding: 10px;
@@ -123,15 +135,16 @@ ul.topnav {
   .knöpfe-container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
   .knöpfe-container > div {
-    background-color: yellow;
+    background-color: limegreen;
     width: 33%;
   }
   .knöpfe-container > div > button {
-    background-color: red;
+    background-color: lime;
+    border: black solid 4px;
     margin: 30px;
     width: 80%;
     height: 70%;
-  
   }

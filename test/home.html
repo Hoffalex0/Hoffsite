@@ -15,22 +15,22 @@
   <body> 
     <ul class="topnav">
       <li><a class="active" href="/test/home.html">Home</a></li>
-      <li><a href="/test/home.html">Blog</a></li>
+      <li><a href="/test/blog.html">Blog</a></li>
       <li><a href="/test/home.html">Empfehlungen</a></li>
       <li><a href="/test/home.html">Ich selbst</a></li>
       <li><a href="/test/home.html">Projekte</a></li>
     </ul>
     <div class="colorbody-index">
     <div class="moin">
-      <div>
-      <h2>Willkommen!👋</h2>
+      <div style="width: 100%;">
+      <p>Willkommen!👋</p>
       <hr style="color: lime;">
       <p>Diese Seite ist nicht illegal!</p>
     </div>
-      <div>Wem gehört eigentlich diese Seite?<br><br><a href="/me.html">Klicke hier, um es herauszufinden</a></div>
-      <div>Gibt es hier etwas zu lesen?<br><br><a href="/blog.html">Klicke hier, um es herauszufinden</a></div>
-    </div>  
-    <div class="imagerandom-container"></div>
+      <div style="width: 45%;">Wem gehört eigentlich diese Seite?<br><br><a href="/me.html">Klicke hier, um es herauszufinden</a></div>
+      <div style="width: 45%;">Gibt es hier etwas zu lesen?<br><br><br><a href="/blog.html">Klicke hier, um es herauszufinden</a></div>
+    </div> 
+    <div class="imagerandom-container">
     <div id="ausgabe" class="imagerandom"></div>
 <script>
 var images = ["/img/random/benches.png", "/img/random/leaves.png", "/img/random/sea.png", "/img/random/blätter.png",
@@ -41,6 +41,7 @@ document.getElementById("ausgabe").innerHTML = '<img src="' + image + '">';
 </script> 
 
 <div class="imagerandom"><h1>🍂 Dies ist ein zufälliges Bild aus einer Liste an Herbst-Bildern. Lade die Seite neu, um ein neues Bild zu bekommen. 🍁</h1></div>
+</div>
 </div>
 <div class="knöpfe-container">
   <div><button type="button" onclick="alert('Nicht auf Knopf 2 klicken!')">SKANDAL!!!!</button></div>
