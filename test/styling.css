@@ -188,8 +188,8 @@ ul.topnav {
     text-align: left;
     padding: 100px;
   }
-  .article1 { grid-area: header; background-image: url("https://cdn.pixabay.com/photo/2016/08/05/09/31/banner-1571858_1280.jpg");}
-  .article2 { grid-area: menu; background-image: url("https://cdn.pixabay.com/photo/2016/08/05/09/31/banner-1571858_1280.jpg");}
-  .article3 { grid-area: main; background-color: lightskyblue;}
-  .article4 { grid-area: right; background-color: lightskyblue;}
-  .article5 { grid-area: footer; background-color: lightskyblue;}
+  .article1 { grid-area: header; box-shadow: 0 0 10px #48e0d0; background: #48e0d0;}
+  .article2 { grid-area: menu; box-shadow: 0 0 10px #48e0d0; background: #48e0d0;}
+  .article3 { grid-area: main; box-shadow: 0 0 10px #48e0d0; background: #48e0d0;}
+  .article4 { grid-area: right; box-shadow: 0 0 10px #48e0d0; background: #48e0d0;}
+  .article5 { grid-area: footer; box-shadow: 0 0 10px #48e0d0; background: #48e0d0;}
