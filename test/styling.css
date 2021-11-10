@@ -54,7 +54,6 @@ ul.topnav {
   ul.topnav li a {
     display: block;
     font-size: 16px;
-    color: lime;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -63,13 +62,13 @@ ul.topnav {
   }
   
   ul.topnav li a:hover:not(.active) {
-    background-color: lightgray;
+    background: linear-gradient(to top, black, gray);
     color: black;
   }
   
   ul.topnav li a.active {
-    background-color: rgb(23, 138, 0);
-    color: lime;
+    background: linear-gradient(to bottom, black, gray);
+    background: -prefix-linear-gradient(bottom, black, gray);;
   }
   
   ul.topnav li.right {
