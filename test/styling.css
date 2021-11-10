@@ -38,8 +38,6 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     margin-bottom: 2%;
-    box-shadow: 0 0 25px lime;
-    border: lime solid 2px;
     position: sticky;
     top: 0;
     background-color: black;
