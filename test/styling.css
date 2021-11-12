@@ -6,9 +6,9 @@ body {
 }
 @media screen and (max-width: 850px) {
   .colorbody-index {
-    width: 94%;
-    margin-left: 3%;
-    margin-right: 3%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .moin {
     margin-left: 3%;
@@ -125,13 +125,13 @@ ul.topnav {
     box-shadow: 0 0 25px lime;
   }
   .down {
-    background: lightslategray;
     font-weight: bold;
     display: flex;
     margin: 5% 0% 0% 0%;
-    border: blanchedalmond solid 3px;
-    color: black;
+    border: white solid 3px;
+    color: white;
     flex-wrap: wrap;
+    background: linear-gradient(to bottom, black, lime);
   }
   .down > div {
     margin-left: 60px;
@@ -175,7 +175,8 @@ ul.topnav {
     height: 15%;
   }
   .articlebox{
-    width: auto;
+    width: 90%;
+    text-align: center;
     display: grid;
     grid-template-areas:
       'header header header header header header'
