@@ -4,16 +4,24 @@ body {
     font-family: 'Zen Kurenaido', monospace;
     background-color: black;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 600px) {
   .colorbody-index {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
   .moin {
     margin-left: 3%;
     margin-right: 3%;
     width: 94%;
+  }
+  .colorbody-blog {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  body {
+    font-size: smaller;
   }
 }
 .colorbody-index {
@@ -178,7 +186,7 @@ ul.topnav {
     height: 15%;
   }
   .articlebox{
-    width: 90%;
+    width: auto;
     text-align: center;
     display: grid;
     grid-template-areas:
@@ -187,6 +195,7 @@ ul.topnav {
       'menu footer footer footer footer footer';
     grid-gap: 20px;
     padding: 10px;
+    overflow-x: auto;
   } 
   .articlebox > div{
     text-align: left;
