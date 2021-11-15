@@ -5,6 +5,16 @@ body {
   overflow-x: hidden;
   margin: auto;
 }
+.grammatik {
+  background-color: steelblue; 
+  margin: 5%; 
+  padding: 1%;
+  overflow-x: auto;
+}
+  table, th, td {
+    border: 4px solid black;
+    border-collapse: collapse;
+  }
 .colorbody-index {
   background-color: limegreen;
   color: darkgreen;

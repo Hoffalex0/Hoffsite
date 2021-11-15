@@ -32,6 +32,9 @@ body {
   border: #48e0d0 solid 2px;
   box-shadow: 0 0 25px #48e0d0;
 }
+.colorbody-advice {
+  color: red;
+}
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -194,3 +197,20 @@ ul.topnav {
   .article3 { grid-area: main; box-shadow: 0 0 10px #48e0d0; background: #48e0d0;}
   .article4 { grid-area: right; box-shadow: 0 0 10px #48e0d0; background: #48e0d0;}
   .article5 { grid-area: footer; box-shadow: 0 0 10px #48e0d0; background: #48e0d0;}
+  /* Advice styling */
+.advices{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.advices > div {
+  padding: 1% 5% 1% 1%;
+  width: 100%;
+  margin-bottom: 1.5%;
+  color: black;
+  font-weight: bolder;
+}
+.advices > div:hover {
+  background: magenta;
+}
