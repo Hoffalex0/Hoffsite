@@ -3,6 +3,10 @@
 body {
     font-family: 'Zen Kurenaido', monospace;
     background-color: black;
+    cursor: crosshair;
+}
+a {
+  cursor: cell;
 }
 @media screen and (max-width: 600px) {
   .colorbody-index {
@@ -41,7 +45,12 @@ body {
   box-shadow: 0 0 25px #48e0d0;
 }
 .colorbody-advice {
-  color: red;
+  color: orange;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: orange solid 2px;
+  box-shadow: 0 0 25px orange;
 }
 ul.topnav {
     list-style-type: none;
@@ -217,9 +226,10 @@ ul.topnav {
   padding: 1% 5% 1% 1%;
   width: 100%;
   margin-bottom: 1.5%;
-  color: black;
+  color: orange;
   font-weight: bolder;
 }
 .advices > div:hover {
-  background: magenta;
+  border: orange solid 2px;
+  cursor: cell;
 }
