@@ -52,12 +52,12 @@ a {
   font-size: x-large;
 }
 .colorbody-me {
-  color: rgb(216, 137, 213);
+  color: yellow;
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
-  border: rgb(216, 137, 213) solid 2px;
-  box-shadow: 0 0 25px rgb(216, 137, 213);
+  border: yellow solid 2px;
+  box-shadow: 0 0 25px yellow;
 }
 ul.topnav {
     list-style-type: none;
