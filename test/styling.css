@@ -49,6 +49,15 @@ a {
   margin-right: 15%;
   border: orange solid 2px;
   box-shadow: 0 0 25px orange;
+  font-size: x-large;
+}
+.colorbody-me {
+  color: rgb(216, 137, 213);
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: rgb(216, 137, 213) solid 2px;
+  box-shadow: 0 0 25px rgb(216, 137, 213);
 }
 ul.topnav {
     list-style-type: none;
@@ -230,4 +239,46 @@ ul.topnav {
 .advices > div:hover {
   border: orange solid 2px;
   cursor: cell;
+}
+/* Me style */
+.who{
+  padding: 30px;
+  margin-top: 10px;
+}
+.list{
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.list > table{
+  width: 100%;
+  border-collapse: collapse;
+  padding: 15px;
+}
+td{
+  padding: 15px;
+}
+.friends{
+  padding: 30px;
+}
+.friends > img{
+  width: 100%;
+}
+.friendnames{
+  display: flex;
+  flex-direction: row;
+}
+.friendnames > div{
+  margin-right: 9%;
+
+}
+.other{
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.music-film{
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
