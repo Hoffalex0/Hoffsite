@@ -1,60 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
   <head>
     <title>Hoffsite - Home</title>
     <meta charset="utf-8" />
-
+    <meta name="description" content="Willkommen! Komm gerne herein. Mach dir einen Tee und guck dir die Website an.">
+    <meta name="title" content="Hoffsite Deutschland - Startseite" />
     <link
       rel="shortcut icon"
       type="image/x-icon"
       href="/img/favicon.png"
     />
-    <meta name="description" content="Willkommen! Komm gerne herein. Mach dir einen Tee und guck dir die Website an.">
-    <meta name="title" content="Hoffsite Deutschland - Startseite" />
-    <link rel="stylesheet" href="/css/style.css" />
+
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body> 
-    <div class="colorbody-index">
-
-    <img style="width: 100%; margin-bottom: 2%;" src="/img/home-intro_.png">
-    <ul class="topnav">
-      <li><a class="active" href="/index.html">Home</a></li>
-      <li><a href="/blog.html">Blog</a></li>
-      <li><a href="/advice.html">Empfehlungen</a></li>
-      <li><a href="/me.html">Ich selbst</a></li>
-      <li class="right"><a href="/projects.html">Projekte</a></li>
+    <ul class="topnav" style="box-shadow: 0 0 25px lime; border: lime solid 2px;">
+      <li><a class="active" href="/index.html" style="color: lime;">Home</a></li>
+      <li><a href="/blog.html" style="color: lime;">Blog</a></li>
+      <li><a href="/advice.html" style="color: lime;">Empfehlungen</a></li>
+      <li><a href="/me.html" style="color: lime;">Ich selbst</a></li>
+      <li class="right"><a href="/projects.html" style="color: lime;">Projekte</a></li>
     </ul>
-
-    <div class="moin" style="background: lightgreen;">
-      <h2>Willkommen!👋</h2>
+    <div class="colorbody-index">
+    <div class="moin">
+      <div style="width: 100%;">
+      <p>Willkommen!👋</p>
+      <hr style="color: lime;">
+      <p>Diese Seite ist nicht illegal!</p>
     </div>
-    <p class="moin2" style="background: lightgreen;" id="demo"></p>
-
-<script>
-var countDownDate = new Date("Oct 25, 2021 00:00:00").getTime();
-var x = setInterval(function() {
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "Die Seite ist erreichbar!";
-  }
-}, 1000);
-</script>
-
-    <div class="news">
-      <div class="newsroom">Wem gehört eigentlich diese Seite?<br><br><a href="/me.html">Klicke hier, um es herauszufinden</a></div>
-      <div class="newsroom">Gibt es hier etwas zu lesen?<br><br><a href="/blog.html">Klicke hier, um es herauszufinden</a></div>
-    </div>
+      <div style="width: 45%;">Wem gehört eigentlich diese Seite?<br><hr><a href="/me.html">Klicke hier!</a></div>
+      <div style="width: 45%;">Gibt es hier etwas zu lesen?<br><hr><a href="/blog.html">Klicke hier!</a></div>
+    </div> 
     <div class="imagerandom-container">
     <div id="ausgabe" class="imagerandom"></div>
-
 <script>
 var images = ["/img/random/benches.png", "/img/random/leaves.png", "/img/random/sea.png", "/img/random/blätter.png",
  "/img/random/chestnut.png", "/img/random/dolomiten.png", "/img/random/halloween_jack-o-lantern.png", "/img/random/jack-o-lanterns.png", "/img/random/pilze.png"
@@ -65,15 +43,7 @@ document.getElementById("ausgabe").innerHTML = '<img src="' + image + '">';
 
 <div class="imagerandom"><h1>🍂 Dies ist ein zufälliges Bild aus einer Liste an Herbst-Bildern. Lade die Seite neu, um ein neues Bild zu bekommen. 🍁</h1></div>
 </div>
-<div class="knöpfe-container">
-  <div><button type="button" onclick="alert('Nicht auf Knopf 2 klicken!')">SKANDAL!!!!</button></div>
-  <div><button type="button" onclick="alert('Nicht auf Knopf 3 klicken!')">Knopf 2</button></div>
-  <div><button type="button" onclick="Rickroll()">Knopf 3</button></div>
-    <script>
-      function Rickroll() {
-        window.location.href = "https://www.youtube.com/watch?v=QtBDL8EiNZo";
-      }
-    </script>
+</div>
 </div>
 <div class="down">
   <div>
@@ -84,12 +54,12 @@ document.getElementById("ausgabe").innerHTML = '<img src="' + image + '">';
     <br>
     ❌Auch unwichtig:
     <br>
-    <a href="https://www.twitch.tv/hoffm_14_" style="color: orange;" target="_blank">Hoffm14</a> 🎮
+    <a href="http://www.twitch.tv/hoffm_14_" style="color: orange;" target="_blank">Hoffm14</a> 🎮
     <br>
     <br>
     ✅Besser als die anderen Seiten hier:
     <br>
-    <a href="https://l3p3.de/" style="color: black;" target="_blank">L3P3</a> 🔫
+    <a href="https://L3P3.de/" style="color: black;" target="_blank">L3P3</a> 🔫
     <br>
     <br>
     ✅Noch nicht funktional:

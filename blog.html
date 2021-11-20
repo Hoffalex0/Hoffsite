@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
   <head>
     <title>Hoffsite - Blog</title>
@@ -7,23 +7,26 @@
       type="image/x-icon"
       href="img/favicon.png"
     />
-    <link rel="stylesheet" href="/css/style.css" />
+    <meta name="description" content="Willkommen! Komm gerne herein. Mach dir einen Tee und guck dir die Website an.">
+    <meta name="title" content="Hoffsite Deutschland - Blog" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-
-    <div class="colorbody-blog">
-      <img style="width: 100%; margin-bottom: 2%;" src="/img/blog-intro_.png">
-    
-    <ul class="topnav">
-      <li><a href="/index.html">Home</a></li>
-      <li><a class="active" href="/blog.html">Blog</a></li>
-      <li><a href="/advice.html">Empfehlungen</a></li>
-      <li><a href="/me.html">Ich selbst</a></li>
-      <li class="right"><a href="/projects.html">Projekte</a></li>
+    <ul class="topnav" style="box-shadow: 0 0 25px #48e0d0; border: #48e0d0 solid 2px;">
+      <li><a href="/index.html" style="color: #48e0d0;">Home</a></li>
+      <li><a class="active" href="/blog.html" style="color: #48e0d0;">Blog</a></li>
+      <li><a href="/advice.html" style="color: #48e0d0;">Empfehlungen</a></li>
+      <li><a href="/me.html" style="color: #48e0d0;">Ich selbst</a></li>
+      <li class="right"><a href="/projects.html" style="color: #48e0d0;">Projekte</a></li>
     </ul>
-    <div class="moin" style="background-color: lightskyblue;"><h2>Das ist der Blog. 📃</h2></div>
-    <div class="moin2" style="background-color: lightskyblue;">Es ist eher eine Newsletter, aber ohne News und ohne Letter.</div>
-
+    <div class="colorbody-blog">
+        <div class="blog-moin">
+          <div style="width: 100%;">
+          <p>Das ist der Blog. 📃</p>
+          <hr style="color: #48e0d0;">
+          <p>Es ist eher eine Newsletter, aber ohne News und ohne Letter.</p>
+        </div>
+        </div>
     <marquee style="behavior: scroll; "
     onmouseover="this.stop();"
     onmouseout="this.start();"
@@ -31,12 +34,13 @@
            ><h1>Neuer Artikel: Ideen für den Jugendrat</h1></marquee>
 
     <div class="articlebox">
-      <div class="article1"><a href="/articles/knoten2.html"><h1 style="font-weight: 900; color: blue;">Ideen für den Jugendrat</h1><p style="font-weight: 900; color: blue;">Warum man mich (und auch T....) wählen sollte.</p></a></div>
-      <div class="article2"><a href="/articles/knoten1.html"><h1 style="font-weight: 900; color: blue;">WÄHLT MICH!</h1><p style="font-weight: 900; color: blue;">Mein Bewerbungstext 🤪</p></a></div>
-      <div class="article3">Artikel 3</div>  
-      <div class="article4">Artikel 4</div>
-      <div class="article5">Artikel 5<br></div>
+      <div class="article1"><a href="/articles/knoten2.html"><h1 style="font-weight: 900; color: black;">Ideen für den Jugendrat</h1><p style="font-weight: 900; color: black;">Warum man mich (und auch Timon) wählen sollte ✉️</p></a></div>
+      <div class="article2"><a href="/articles/knoten1.html"><h1 style="font-weight: 900; color: black">WÄHLT MICH!</h1><p style="font-weight: 900; color: black">Mein Bewerbungstext 🤪</p></a></div>
+      <div class="article3"><a href="/articles/knoten3.html"><h1 style="font-weight: 900; color: black">Rolls Seufz</h1><p style="font-weight: 900; color: black">Ein komischer Text über das Autofahren in der Stadt 🚗</p></a></div>
+      <div class="article4"><h1 style="font-weight: 900; color: black">Hier könnte ein Artikel stehen!</h1><p style="font-weight: 900; color: black">Kein komischer Text!</p></div>
+      <div class="article5"><h1 style="font-weight: 900; color: black">Hier könnte ein Artikel stehen!</h1><p style="font-weight: 900; color: black">Kein komischer Text!</p></div>
     </div>
+  </div>
     <div class="down">
       <div>
         ❌Unwichtig:
@@ -75,6 +79,5 @@
         <br>Hoffalex-Company
       </div>
     </div>
-  </div>
   </body>
 </html>
