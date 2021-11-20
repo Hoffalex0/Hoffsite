@@ -99,13 +99,13 @@ ul.topnav {
   }
   
   ul.topnav li a:hover:not(.active) {
-    background: linear-gradient(to top, black, gray);
+    background: linear-gradient(to left, black, gray);
     color: black;
   }
   
   ul.topnav li a.active {
-    background: linear-gradient(to bottom, black, gray);
-    background: -prefix-linear-gradient(bottom, black, gray);;
+    background: linear-gradient(to left, black, gray);
+    background: -prefix-linear-gradient(left, black, gray);;
   }
   
   ul.topnav li.right {
