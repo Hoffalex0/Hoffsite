@@ -8,7 +8,7 @@ body {
 a {
   cursor: cell;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .colorbody-index {
     margin-left: 2% !important;
     margin-right: 2% !important;
@@ -112,7 +112,7 @@ ul.topnav {
     float: right;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1000px) {
     ul.topnav li.right,
     ul.topnav li {
       float: none;
@@ -128,7 +128,6 @@ ul.topnav {
     margin-top: 1%;
     font-weight: bold;
     font-size: 50px;
-    text-align: center;
     width: 70%;
     display: flex;
     justify-content: center;
@@ -138,9 +137,10 @@ ul.topnav {
   }
   .moin > div {
     border: lime solid 3px;
-    padding: 10px;
+    padding: 1%;
     margin: 1%;
-    height: 15%;
+    height: auto;
+    width: auto;
   }
   .imagerandom-container {
     border: lime solid 3px;
