@@ -10,15 +10,28 @@ a {
 }
 @media screen and (max-width: 600px) {
   .colorbody-index {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .moin {
-    width: 100%;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    width: 96% !important;
   }
   .colorbody-blog {
-    margin-left: 5% !important;
-    margin-right: 5% !important;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    width: 96% !important;
+  }
+  .colorbody-advice {
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    width: 96% !important;
+  }
+  .colorbody-me {
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    width: 96% !important;
+  }
+  .moin > div {
+    width: auto !important;
+    text-align: left;
   }
   body {
     font-size: smaller;
@@ -105,6 +118,9 @@ ul.topnav {
       float: none;
     }
     ul.topnav {
+      margin-left: 2% !important;
+      margin-right: 2% !important;
+      width: 96% !important;
       position: static;
     }
   }
