@@ -179,11 +179,6 @@ ul.topnav {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  iframe {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-  }
   .knöpfe-container{
     display: flex;
     flex-direction: row;
