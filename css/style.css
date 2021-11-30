@@ -69,6 +69,14 @@ a {
   border: yellow solid 2px;
   box-shadow: 0 0 25px yellow;
 }
+.colorbody-projects {
+  color: red;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: red solid 2px;
+  box-shadow: 0 0 25px red;
+}
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -167,7 +175,7 @@ ul.topnav {
   .down {
     font-weight: bold;
     display: flex;
-    margin: 5% 0% 0% 0%;
+    margin: auto;
     border: white solid 3px;
     color: white;
     flex-wrap: wrap;
@@ -178,6 +186,9 @@ ul.topnav {
     margin-right: 60px;
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .down-iframe {
+    border: none;
   }
   .knöpfe-container{
     display: flex;
@@ -294,4 +305,22 @@ td{
   padding: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+/*projects*/
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.projects > div {
+  padding: 1% 5% 1% 1%;
+  width: 100%;
+  margin-bottom: 1.5%;
+  color: red;
+  font-weight: bolder;
+}
+.projects > div:hover {
+  border: red solid 2px;
+  cursor: cell;
 }
