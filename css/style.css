@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Zen Kurenaido', monospace;
-    background-color: black;
+    background-color: #0c0c0c;
     cursor: crosshair;
 }
 a {
@@ -85,7 +85,7 @@ ul.topnav {
     margin-bottom: 2%;
     position: sticky;
     top: 0;
-    background-color: black;
+    background-color: #0c0c0c;
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
