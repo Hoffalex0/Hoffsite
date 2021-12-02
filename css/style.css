@@ -8,6 +8,7 @@ body {
 a {
   cursor: cell;
 }
+iframe {border: none;}
 @media screen and (max-width: 1000px) {
   .colorbody-index {
     margin-left: 2% !important;
@@ -85,11 +86,12 @@ ul.topnav {
     margin-bottom: 2%;
     position: sticky;
     top: 0;
-    background-color: #0c0c0c;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 3%;
+   
   }
   
   ul.topnav li {
@@ -104,16 +106,20 @@ ul.topnav {
     text-decoration: none;
     font-weight: bold;
     font-size: larger;
-  }
-  
-  ul.topnav li a:hover:not(.active) {
-    background: linear-gradient(to left, black, gray);
+    font-weight: bolder;
     color: black;
   }
   
+  ul.topnav li a:hover:not(.active) {
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+  }
+  
   ul.topnav li a.active {
-    background: linear-gradient(to left, black, gray);
-    background: -prefix-linear-gradient(left, black, gray);;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
   }
   
   ul.topnav li.right {
