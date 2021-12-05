@@ -22,28 +22,43 @@
     <div class="colorbody-projects">
        <div class="projects">
          <div>
-      <details><summary><strong style="font-size: xx-large;">Zeichensetzung-Projekt (im Rahmen der Schule)</strong></summary>
-      <a href="zeichen.html">Hier klicken, um zur Seite zu kommen.</a>
+      <details><summary>
+        <strong style="font-size: xx-large;">Zeichensetzung-Projekt (im Rahmen der Schule)</strong></summary>
+        <a href="/zeichen.html">
+        <div class="projectpreview-container">
+          <img src="img/projects/Screenshot 2021-12-05 at 20-08-57 Hoffsite - Zeichensetzung.png" alt="Avatar" class="projectpreview-image">
+          <div class="projectpreview-overlay">
+            <div class="projectpreview-text"><p>Vielen Schülern ist die Zeichensetzung ein Krux. Unsere Schulklasse sollte deshalb, um anderen Schülern die Kommasetzung nahe zu bringen, Werbe-Plakate designen. Um nun von diesen Plakaten auf eine helfene Informationsquelle zu kommen, nutze ich meine Website-Adresse als Bindeglied zwischen Information und Werbung. Man sieht eine Übersich über alle Fälle, in denen Kommas gesetzt werden müssen.</p></div>
+          </div>
+        </div>
+        </a>
       </details>
     </div>
     <div>
       <details><summary><strong style="font-size: xx-large;">Projekt 2 (schon geplant)</strong></summary>
-        Das Projekt startet im Frühjahr.
+        Das Projekt wird veröffentlicht am:
+        <p class="countdown" id="demo"></p>
+        <script>
+        var countDownDate = new Date("Apr 13, 2022 18:30:00").getTime();
+        var x = setInterval(function() {
+          var now = new Date().getTime();
+          var distance = countDownDate - now;
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "Das Projekt wird in wenigen Augenblicken veröffentlicht.";
+          }
+        }, 1000);
+        </script>
     </details>
-    </div>
-    <div>
-      <details><summary><strong style="font-size: xx-large;">Projekt 3</strong></summary>
-      Hier ist noch nichts!
-      </details>
-    </div>
-    <div>
-      <details><summary><strong style="font-size: xx-large;">Projekt 4</strong></summary>
-      Hier ist noch nichts! 
-      </details>
     </div>
     </div>
   </div>
   <iframe class="down-iframe" width="100%" height="400" src=/down.html></iframe>
-  </div>
   </body>
 </html>
