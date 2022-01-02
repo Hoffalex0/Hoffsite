@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 
 body {
-    font-family: 'Zen Kurenaido', monospace;
-    background-color: #0c0c0c;
-    cursor: crosshair;
+  font-family: 'Zen Kurenaido', monospace;
+  background-color: #0c0c0c;
+  cursor: crosshair;
 }
 a {
   cursor: cell;
 }
 iframe {border: none;}
 @media screen and (max-width: 1000px) {
-  .colorbody-index {
+  .page-index {
     margin-left: 2% !important;
     margin-right: 2% !important;
     width: 96% !important;
   }
-  .colorbody-blog {
+  .page-blog {
     margin-left: 2% !important;
     margin-right: 2% !important;
     width: 96% !important;
   }
-  .colorbody-advice {
+  .page-advice {
     margin-left: 2% !important;
     margin-right: 2% !important;
     width: 96% !important;
   }
-  .colorbody-me {
+  .page-me {
     margin-left: 2% !important;
     margin-right: 2% !important;
     width: 96% !important;
@@ -38,7 +38,7 @@ iframe {border: none;}
     font-size: xx-large;
   }
 }
-.colorbody-index {
+.page-index {
     color: lime;
     width: 70%;
     margin-left: 15%;
@@ -46,14 +46,14 @@ iframe {border: none;}
     border: lime solid 2px;
     box-shadow: 0 0 25px lime;
 }
-.colorbody-blog {
+.page-blog {
   color: #48e0d0;
   margin-left: 15%;
   margin-right: 15%;
   border: #48e0d0 solid 2px;
   box-shadow: 0 0 25px #48e0d0;
 }
-.colorbody-advice {
+.page-advice {
   color: orange;
   width: 70%;
   margin-left: 15%;
@@ -62,7 +62,7 @@ iframe {border: none;}
   box-shadow: 0 0 25px orange;
   font-size: x-large;
 }
-.colorbody-me {
+.page-me {
   color: yellow;
   width: 70%;
   margin-left: 15%;
@@ -70,7 +70,7 @@ iframe {border: none;}
   border: yellow solid 2px;
   box-shadow: 0 0 25px yellow;
 }
-.colorbody-projects {
+.page-projects {
   color: red;
   width: 70%;
   margin-left: 15%;
@@ -79,21 +79,37 @@ iframe {border: none;}
   box-shadow: 0 0 25px red;
 }
 ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    margin-bottom: 2%;
-    position: sticky;
-    top: 0;
-    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 3%;
-   
-  }
-  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 2%;
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 3%;
+  box-shadow: 0 0 25px lime;
+  border: lime solid 2px;
+}
+.page-blog .topnav {
+  box-shadow: 0 0 25px #48e0d0;
+  border-color: #48e0d0;
+}
+.page-advice .topnav {
+  box-shadow: 0 0 25px orange;
+  border-color: orange;
+}
+.page-me .topnav {
+  box-shadow: 0 0 25px yellow;
+  border-color: yellow;
+}
+.page-projects .topnav {
+  box-shadow: 0 0 25px red;
+  border-color: red;
+}
   ul.topnav li {
     float: left;
   }
