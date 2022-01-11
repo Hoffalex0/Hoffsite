@@ -78,7 +78,7 @@ iframe {border: none;}
   border: red solid 2px;
   box-shadow: 0 0 25px red;
 }
-ul.topnav {
+ul#topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -94,27 +94,27 @@ ul.topnav {
   box-shadow: 0 0 25px lime;
   border: lime solid 2px;
 }
-.page-blog .topnav {
+.page-blog #topnav {
   box-shadow: 0 0 25px #48e0d0;
   border-color: #48e0d0;
 }
-.page-advice .topnav {
+.page-advice #topnav {
   box-shadow: 0 0 25px orange;
   border-color: orange;
 }
-.page-me .topnav {
+.page-me #topnav {
   box-shadow: 0 0 25px yellow;
   border-color: yellow;
 }
-.page-projects .topnav {
+.page-projects #topnav {
   box-shadow: 0 0 25px red;
   border-color: red;
 }
-  ul.topnav li {
+  ul#topnav li {
     float: left;
   }
   
-  ul.topnav li a {
+  ul#topnav li a {
     display: block;
     font-size: 16px;
     text-align: center;
@@ -126,28 +126,28 @@ ul.topnav {
     color: black;
   }
   
-  ul.topnav li a:hover:not(.active) {
+  ul#topnav li a:hover:not(.active) {
     background-color: black;
     opacity: 0.5;
     color: white;
   }
   
-  ul.topnav li a.active {
+  ul#topnav li a.active {
     background-color: white;
     opacity: 0.5;
     color: black;
   }
   
-  ul.topnav li.right {
+  ul#topnav li.right {
     float: right;
   }
   
   @media screen and (max-width: 1000px) {
-    ul.topnav li.right,
-    ul.topnav li {
+    ul#topnav li.right,
+    ul#topnav li {
       float: none;
     }
-    ul.topnav {
+    ul#topnav {
       margin-left: 2% !important;
       margin-right: 2% !important;
       width: 96% !important;
