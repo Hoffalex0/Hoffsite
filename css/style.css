@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 body {
-  font-family: 'Zen Kurenaido', monospace;
+  font-family: 'Permanent Marker', cursive;
   background-color: #0c0c0c;
   cursor: crosshair;
 }
@@ -39,7 +39,7 @@ iframe {border: none;}
   }
 }
 .page-index {
-    color: lime;
+    color: white;
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
@@ -47,14 +47,14 @@ iframe {border: none;}
     box-shadow: 0 0 25px lime;
 }
 .page-blog {
-  color: #48e0d0;
+  color: white;
   margin-left: 15%;
   margin-right: 15%;
   border: #48e0d0 solid 2px;
   box-shadow: 0 0 25px #48e0d0;
 }
 .page-advice {
-  color: orange;
+  color: white;
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
@@ -63,15 +63,16 @@ iframe {border: none;}
   font-size: x-large;
 }
 .page-me {
-  color: yellow;
+  color: white;
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
   border: yellow solid 2px;
   box-shadow: 0 0 25px yellow;
+  font-size: x-large;
 }
 .page-projects {
-  color: red;
+  color: white;
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
@@ -202,6 +203,10 @@ ul#topnav {
     color: white;
     flex-wrap: wrap;
     background: linear-gradient(to bottom, black, lime);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    box-shadow: 0 0 25px white;
   }
   .down > div {
     margin-left: 60px;
@@ -387,4 +392,13 @@ td{
 .jfimage {
   width: 100%;
   height: auto;
+}
+/*Articles*/
+.article-page {
+  border: limegreen solid 3px;
+  box-shadow: 0 0 25px lime;
+  color: limegreen;
+  margin: 3%;
+  padding: 1%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }

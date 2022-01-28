@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="de">
+
 <head>
   <title>Hoffsite - Home</title>
   <meta charset="utf-8" />
@@ -8,27 +9,31 @@
   <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
-<body class="page-index">
+
+<body>
   <script src="/utils.js"></script>
   <div id="load-nav"></div>
-  <div class="moin">
-    <div>
-      <p>Willkommen!👋</p>
+  <div class="page-index">
+    <div class="moin">
+      <div>
+        <p>Willkommen!👋</p>
+      </div>
     </div>
-    </div> 
     <div class="imagerandom-container">
-    <div id="ausgabe" class="imagerandom"></div>
-    <script>
-      var images = ["/img/random/Winter/bahn.png", "/img/random/Winter/eichhorn.png", "/img/random/Winter/road_winter.png", "/img/random/Winter/snow_nature.png",
-        "/img/random/Winter/snowfall.png"];
-      var image = images[Math.floor(Math.random() * images.length)];
-      document.getElementById("ausgabe").innerHTML = '<img src="' + image + '">';
-    </script>
-    <div class="imagerandom">
-      <h1>⛄ Dies ist ein zufälliges Bild aus einer Liste an Winter-Bildern. Lade die Seite neu, um ein neues Bild zu
-        bekommen. ❄️</h1>
+      <div id="ausgabe" class="imagerandom"></div>
+      <script>
+        var images = ["/img/random/Winter/bahn.png", "/img/random/Winter/eichhorn.png", "/img/random/Winter/road_winter.png", "/img/random/Winter/snow_nature.png",
+          "/img/random/Winter/snowfall.png"];
+        var image = images[Math.floor(Math.random() * images.length)];
+        document.getElementById("ausgabe").innerHTML = '<img src="' + image + '">';
+      </script>
+      <div class="imagerandom">
+        <h1>⛄ Dies ist ein zufälliges Bild aus einer Liste an Winter-Bildern. Lade die Seite neu, um ein neues Bild zu
+          bekommen. ❄️</h1>
+      </div>
     </div>
   </div>
   <div id="load-footer"></div>
 </body>
+
 </html>
