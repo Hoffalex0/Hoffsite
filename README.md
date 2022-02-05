@@ -9,3 +9,13 @@ Fr: Voici le script de mon site web "hoffsite.de". Signalez-moi les problèmes e
 -
 Ru: Это скрипт с моего сайта "hoffsite.de". Сообщайте мне о проблемах и ошибках на Github.
 
+## Das ist noch zu machen auf der Website:
+- [x] über mich schreiben
+- [x] dunkles Design
+- [x] Navbar und Downbar als separate Datei
+- [x] Menschen glauben lassen, dass es die Hoffalex-Company gibt
+- [x] Schriftart ändern
+- [ ] kommunistische Revolution
+- [ ] Revolution kommerzialisieren -> Revo-Lotion
+- [ ] mindestens 3 Artikel veröffentlicht haben
+- [ ] das letzte ToDo schreiben
