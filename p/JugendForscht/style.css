@@ -16,6 +16,10 @@ body {
   border: gray solid 10px;
 }
 h2 {
+  text-decoration: underline;
+}
+strong {
+  text-decoration: underline;
 }
 .jfimage {
     width: 100%;
