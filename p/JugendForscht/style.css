@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  background-color: red;
+}
+.nav {
+  width: 1835epx;
+  position: top;
+}
+.inhalt {
+  background-color: white;
+  padding: 4%;
+  width: auto;
+  margin-left: 4%;
+  margin-right: 4%;
+  border: gray solid 10px;
+}
+.jfimage {
+    width: 100%;
+    height: auto;
+  }
