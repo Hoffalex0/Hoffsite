@@ -14,19 +14,16 @@ body {
   margin-left: 4%;
   margin-right: 4%;
   border: gray solid 10px;
+  text-align: center;
 }
-h2 {
+h1 {
   text-decoration: underline;
 }
 strong {
   text-decoration: underline;
 }
-.jfimage {
-    width: 100%;
-    height: auto;
-  }
 .stand {
-  width: 1835px;
+  width: 1700px;
 }
 .vv-container {
   display: flex;
