@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 body {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Inconsolata', monospace;
   background-color: #0c0c0c;
   cursor: crosshair;
 }
@@ -202,7 +202,7 @@ ul#topnav {
     border: white solid 3px;
     color: white;
     flex-wrap: wrap;
-    background: linear-gradient(to bottom, black, lime);
+    background: linear-gradient(to bottom, rgb(6, 43, 6), lime);
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 5%;
@@ -400,5 +400,4 @@ td{
   color: limegreen;
   margin: 3%;
   padding: 1%;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
