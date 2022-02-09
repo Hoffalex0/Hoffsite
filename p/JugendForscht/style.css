@@ -46,3 +46,10 @@ strong {
   width: 70%;
   border: #0044FF solid 9px;
 }
+.vvs-container {
+  display: flex;
+  justify-content: center;
+}
+.vvs-container > div {
+  width: 40%;
+}
