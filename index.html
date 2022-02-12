@@ -32,7 +32,14 @@
           bekommen. ❄️</h1>
       </div>
     </div>
+    <button style="background-color: black; color: wheat;" onclick="cursor()">NICHT KLICKEN!</button>
   </div>
+  <script>
+    function cursor() {
+    const note = document.querySelector('body');
+    note.style.cursor = 'url(/img/favicon.png) 0 0, wait'
+  }
+  </script>
   <div id="load-footer"></div>
 </body>
 
