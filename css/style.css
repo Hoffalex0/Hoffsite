@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-
+/*General styling*/
 body {
   font-family: 'Inconsolata', monospace;
   background-color: #0c0c0c;
@@ -8,7 +8,7 @@ body {
 a {
   cursor: cell;
 }
-iframe {border: none;}
+  /*Small screen layout*/
 @media screen and (max-width: 1000px) {
   .page-index {
     margin-left: 2% !important;
@@ -38,6 +38,20 @@ iframe {border: none;}
     font-size: xx-large;
   }
 }
+button {
+  background-color: gray;
+  border: white solid 5px;
+  color: black;
+  font-size: x-large;
+  padding: 10px;
+}
+button:hover {
+  background-color: white;
+}
+button:active {
+  background-color: green;
+}
+  /*Big screen layout and colors*/
 .page-index {
     color: white;
     width: 70%;
@@ -79,6 +93,7 @@ iframe {border: none;}
   border: red solid 2px;
   box-shadow: 0 0 25px red;
 }
+  /*Navbar styling*/
 ul#topnav {
   list-style-type: none;
   margin: 0;
@@ -114,7 +129,6 @@ ul#topnav {
   ul#topnav li {
     float: left;
   }
-  
   ul#topnav li a {
     display: block;
     font-size: 16px;
@@ -155,6 +169,7 @@ ul#topnav {
       position: static;
     }
   }
+/*Index styling*/
   .moin {
     margin-top: 1%;
     font-weight: bold;
@@ -217,23 +232,15 @@ ul#topnav {
   .down-iframe {
     border: none;
   }
-  .knöpfe-container{
+  .stuff-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border: lime solid 3px;
+    margin-left: 20%;
+    margin-right: 20%;
   }
-  .knöpfe-container > div {
-    background-color: limegreen;
-    width: 33%;
-  }
-  .knöpfe-container > div > button {
-    background-color: lime;
-    border: black solid 4px;
-    margin: 30px;
-    width: 80%;
-    height: 70%;
-  }
-  /*BLOG*/
+/*Blog styling*/
   .blog-moin  {
     margin-top: 1%;
     font-weight: bold;
@@ -252,7 +259,7 @@ ul#topnav {
     margin: 1%;
     height: 15%;
   }
-  .articlebox{
+  .articlebox {
     width: auto;
     text-align: center;
     display: grid;
@@ -263,7 +270,9 @@ ul#topnav {
     grid-gap: 20px;
     padding: 10px;
     overflow-x: auto;
-  } 
+    font-weight: 900;
+    color: black;
+  }
   .articlebox > div{
     text-align: left;
     padding: 100px;
@@ -273,7 +282,7 @@ ul#topnav {
   .article3 { grid-area: main; box-shadow: 0 0 10px #48e0d0; background: #48e0d0;}
   .article4 { grid-area: right; box-shadow: 0 0 10px #48e0d0; background: #48e0d0;}
   .article5 { grid-area: footer; box-shadow: 0 0 10px #48e0d0; background: #48e0d0;}
-  /* Advice styling */
+/*Advice styling*/
 .advices{
   display: flex;
   flex-wrap: wrap;
@@ -291,7 +300,7 @@ ul#topnav {
   border: orange solid 2px;
   cursor: cell;
 }
-/* Me style */
+/* Me styling */
 .who{
   padding: 30px;
   margin-top: 10px;
@@ -333,7 +342,7 @@ td{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/*projects*/
+/*Projects styling*/
 .projects{
   display: flex;
   flex-wrap: wrap;
@@ -393,7 +402,7 @@ td{
   width: 100%;
   height: auto;
 }
-/*Articles*/
+/*Article styling*/
 .article-page {
   border: limegreen solid 3px;
   box-shadow: 0 0 25px lime;

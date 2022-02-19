@@ -21,25 +21,20 @@
     </div>
     <div class="imagerandom-container">
       <div id="ausgabe" class="imagerandom"></div>
-      <script>
-        var images = ["/img/random/Winter/bahn.png", "/img/random/Winter/eichhorn.png", "/img/random/Winter/road_winter.png", "/img/random/Winter/snow_nature.png",
-          "/img/random/Winter/snowfall.png"];
-        var image = images[Math.floor(Math.random() * images.length)];
-        document.getElementById("ausgabe").innerHTML = '<img src="' + image + '">';
-      </script>
+      <button onclick="imager()">Der Knopf</button>
       <div class="imagerandom">
-        <h1>⛄ Dies ist ein zufälliges Bild aus einer Liste an Winter-Bildern. Lade die Seite neu, um ein neues Bild zu
-          bekommen. ❄️</h1>
+        <h1>⛄ Wenn du auf den Knopf drückst, erhältst du ein zufälliges Winter-Bild. 🌨️</h1>
       </div>
     </div>
-    <button style="background-color: black; color: wheat;" onclick="cursor()">NICHT KLICKEN!</button>
+    <div class="stuff-container">
+      <div>
+        <button onclick="cursor()">NICHT KLICKEN!</button>
+      </div>
+      <div>
+        <button onclick="rain()">HIER AUCH NICHT!</button>
+      </div>
+    </div>
   </div>
-  <script>
-    function cursor() {
-    const note = document.querySelector('body');
-    note.style.cursor = 'url(/img/favicon.png) 0 0, wait'
-  }
-  </script>
   <div id="load-footer"></div>
 </body>
 
