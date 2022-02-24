@@ -51,6 +51,19 @@ button:hover {
 button:active {
   background-color: green;
 }
+input {
+  background-color: gray;
+  border: white solid 5px;
+  color: black;
+  font-size: x-large;
+  padding: 10px;
+}
+input:hover {
+  background-color: white;
+}
+input:active {
+  background-color: green;
+}
   /*Big screen layout and colors*/
 .page-index {
     color: white;

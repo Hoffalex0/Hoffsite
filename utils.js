@@ -2,25 +2,35 @@
 function cursor() {
     const note = document.querySelector('body');
     note.style.cursor = 'url(/img/favicon.png) 0 0, wait'
-  }
+}
 
 /*Function of the random image generator*/
 function imager() {
     var images = ["/img/random/Winter/bahn.png", "/img/random/Winter/eichhorn.png", "/img/random/Winter/road_winter.png", "/img/random/Winter/snow_nature.png",
-    "/img/random/Winter/snowfall.png"];
-  var image = images[Math.floor(Math.random() * images.length)];
-  document.getElementById("ausgabe").innerHTML = '<img src="' + image + '">';
+        "/img/random/Winter/snowfall.png"];
+    var image = images[Math.floor(Math.random() * images.length)];
+    document.getElementById("ausgabe").innerHTML = '<img src="' + image + '">';
 }
 
 /*Function of the dark and light switch*/
 function lighter() {
-    var isDark = true;
-//Angefangen!
+    const currentCase = document.getElementById("lighterswitch").value
+    const area = document.querySelector("body");
+    if (currentCase == "Zum hellen Modus wechseln. (experimentell, aber schlimmer als jetzt kann es nicht werden. Oder?)") {
+        area.style.background = "white";
+        document.querySelector(".page-index").style.color = "black";
+        document.getElementById("lighterswitch").value="Zum dunklen Modus wechseln. (Schnell wieder weg hier!)";
+    } else {
+        area.style.background = "black";
+        document.querySelector(".page-index").style.color = "white";
+        document.getElementById("lighterswitch").value="Zum hellen Modus wechseln. (experimentell, aber schlimmer als jetzt kann es nicht werden. Oder?)";
+
+    }
 }
 
 /*Function of the rain-effect*/
 function rain() {
-//Angefangen!
+    //Angefangen!
 }
 
 /* Load OUR (communism) navbar */
