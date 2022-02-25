@@ -115,7 +115,7 @@ ul#topnav {
   margin-bottom: 2%;
   position: sticky;
   top: 0;
-  background-image: linear-gradient(to right, lime, cyan, orange, orange, yellow, yellow, white, white, white, white, white, white, white, white, white, red, red); 
+  background-image: linear-gradient(to top, yellow, blue); 
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
