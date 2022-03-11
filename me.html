@@ -1,194 +1,219 @@
 <!doctype html>
 <html lang="de">
+
 <head>
-  <title>Hoffsite - Ich</title>
-  <meta name="description" content="Nein! Einfach nur nein.">
-  <meta name="title" content="Hoffsite-Sekte Deutschland - Ich" />
-  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png" />
-  <link rel="stylesheet" href="css/style.css" />
+    <title>Hoffsite // Über mich</title>
+    <meta charset="utf-8" />
+    <meta name="title" content="Hoffsite - Hofsite ist Fake." />
+    <meta name="description" content="Die Seite von hfflx.">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logos/ukraine_logo.jpg" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-  <script src="/utils.js"></script>
-  <div id="load-nav"></div>
-  <div class="page-me">
-    <div class="moin">
-      <h2>Infos über mich:</h2>
+    <div class="inhalt-desk">
+        <div class="toprandom-i">
+            <div id="ausgabe"></div>
+            <input style="height: 50px; position: absolute; top: 5px; right: 5px;" type="image"
+                src="images/icons/Dice_icon.png" onclick="imager()">
+        </div>
+        <script src="/utils.js"></script>
+        <div id="load-nav"></div>
+        <h1 class="title-m" id="easteregg">Einiges über mich</h1>
+        <script>
+            document.getElementById("easteregg").addEventListener("click", clickereg);
+            var egclick = 0;
+            function clickereg() {
+                egclick++;
+                if (egclick == 7) {
+                    alert(":)");
+
+                }
+            }
+        </script>
+        <div class="profile-m">
+            <!--Übergangslösung mit den <details>. Wird "bald" durch bessere Technologie ersetzt.-->
+            <details>
+                <summary>Name</summary>
+                Mein Name ist <span class="underline">Simon</span>. Der Name ist auf mehrere Personen aus der Bibel und
+                auf einen Youtuber zurückzuführen.🤦
+            </details>
+            <details>
+                <summary>Spezies</summary>
+                Mein Spezies ist <span class="underline">Mensch</span>.🧑
+            </details>
+            <details>
+                <summary>Herkunft</summary>
+                Ich bin in <span class="underline">Deutschland</span> geboren und wohne auch dort.
+            </details>
+            <details>
+                <summary>Wohnort</summary>
+                Ich wohne in der Stadt <span class="underline">Buchholz</span>. 🗺️
+            </details>
+            <details>
+                <summary>Geburtsdatum</summary>
+                Ich wurde an einem <span class="underline">25. Oktober</span> geboren, möchte aber nicht, dass man mir
+                gratuliert. <span style="color: yellow; font-size: small;">ODER MAN MICH MIT MEHL BEWIRFT! DAS IST
+                    LEBENSMITTELVERSCHWENDUNG!</span>
+            </details>
+            <details>
+                <summary>Anzahl Geschwister</summary>
+                <span class="underline">1</span> 🙍
+            </details>
+            <details>
+                <summary>Anzahl Thekenschalen</summary>
+                Bei mir sind es nur <span class="underline">3</span> Thekenschalen, aber dafür eine Schale mit
+                Kidneybohnen. 🥙
+            </details>
+            <details>
+                <summary>Haustiere</summary>
+                Einerseits Spinnen (als Mückenfänger #Ausbeute), anderseits <span class="underline">2 Kaninchen</span>.
+                🐰
+            </details>
+            <details>
+                <summary>Religion und Glaube</summary>
+                Ich bin <span class="underline">Christ</span>.
+            </details>
+            <details>
+                <summary>Hobbys und Interessen</summary>
+                Ich habe viele Hobbies oder allgemeine Interessen, deshalb hier nur ein Teil davon: <span
+                    class="underline">Imkern, Latein,
+                    Programmierung & Technik,
+                    Eisenbahn, Naturwissenschaft, Rhetorik,
+                    Gitarre spielen</span>
+            </details>
+            <details>
+                <summary>Ernährung</summary>
+                Ich bin ein<span class="underline">Pflanzenfresser</span>. Also ich esse keine tierischen Produkte. 🥔
+            </details>
+            <details>
+                <summary>Stört mich</summary>
+                Mich stört <span class="underline">Fleisch</span>, das gegessen wird. Ich kann die Abwägungen im Kopf
+                eines Fleischessers nicht nachvollziehen. Außerdem stören mich Angebereien und Vergleiche mit anderen
+                Personen. Auch Gewalt lehne ich ab. Vorallem Geschlechterrollen und
+                Festlegungen verschiedener Interessen durch andere widerstreben all meinen Prinzipien. Oft werde ich
+                auch unterschätzt. Das ärgert mich sehr.
+            </details>
+            <details>
+                <summary>Desinteresse</summary>
+                Ich habe mich mal für <span class="underline">Fußball, Memes und Videospiele</span> interessiert. Aber
+                aus verschiedenen Gründen
+                interessieren mich diese Themen nicht mehr stark.
+            </details>
+            <details>
+                <summary>Sprachen</summary>
+                In der Schule lerne ich: <span class="underline">Deutsch, Englisch, Latein,</span>. <span
+                    class="underline">Ich schweige aber auch gerne Mal.</span>
+            </details>
+            <details>
+                <summary>Stärken</summary>
+                Anscheinend liegt mir Schreiben, Lernen und Präsentieren sehr gut.
+            </details>
+            <details>
+                <summary>Schwächen</summary>
+                Mir fällt es schwer neue Menschen kennenzulernen. Man sieht auch, dass ich keine Websites designen kann.
+            </details>
+            <details>
+                <summary>Preise / Auszeichnungen</summary>
+                JugendForscht-Gewinner des Alternativpreises "Beste Präsentation" (RW); Gewinner bei "Mathe im Advent";
+                Dieter Bohlen schon mal getroffen
+                <button onclick="location.href = 'https://l3p3.de';">Zu L3P3 (Einer viel besseren Seite)</button>
+            </details>
+            <details>
+                <summary>Engagments für die Allgemeinheit</summary>
+                Mitglied bei Bündnis 90 / Die Grünen, regelmäßiges Müllaufsammeln bei mir im Ort, Regelmäßige Spenden an
+                FridaysForFuture, Mitglied im Jugendrat Buchholz <button onclick="location.href = 'https://l3p3.de';">Zu
+                    L3P3 (Einer viel besseren Seite)</button>
+            </details>
+            <details>
+                <summary>Schulform</summary>
+                Gymnasium, Digga!
+            </details>
+            <details>
+                <summary>Lieblingsessen</summary>
+                Pilzpfanne, Auflauf mit veganem Käse, Tomatenleis
+            </details>
+            <details>
+                <summary>Videospiele, die ich spiele</summary>
+                Kein Einziges.
+            </details>
+            <details>
+                <summary>Was andere an mir hassen:</summary>
+                Das hassen Menschen, denen ich begegnet bin, an mir: Wirbel in den Haaren,
+                Aussehen, Überheblichkeit, Schüchternheit, Besserwisserei, Selbstkritik und VIELES MEHR.
+            </details>
+        </div>
+        <div class="music-m-model-m">
+            <div class="music-m">
+                <h1>Musik, die ich höre:</h1>
+                <h2>(sortiert von oft gehört nach mäßig oft gehört)</h2>
+                <div class="musician-m">
+                    <img title="Radiohead (Melancholisch und Komplex. Garantiert ohne Ohrwurmfaktor, aber mit Mood-Faktor) / Kenne ich von Freunden."
+                        src="images/me/music/radiohead.jpg">
+                    <img title="The Avalanches / Kenne ich aus dem Fernsehen."
+                        src="images/me/music/avalanches.jpg">
+                    <img title="Deichkind / Kenne ich aus dem Radio und von Youtube."
+                        src="images/me/music/deichkind.jpg">
+                    <img title="Genesis / Kenne ich vom Spotify-Algorithmus."
+                        src="images/me/music/genesis.jpg">
+                    <img title="Die Beatles / Wer kennt sie nicht..."
+                        src="images/me/music/beatles.jpg">
+                    <img title="ABBA / Wer kenn sie nicht... #Mainstream"
+                        src="images/me/music/abba.jpg">
+                    <img title="Beegees / Kenne ich vom Gitarrenunterricht."
+                        src="images/me/music/beegees.jpg">
+                    <img title="daft punk / Kenne ich von YouTube."
+                        src="images/me/music/daft_punk.jpg">
+                    <img title="Ton Steine Scherben / Kenne ich durch den Spotify-Algorithmus."
+                        src="images/me/music/ton_stein_scherben.jpg">
+                    <img title="C418 / Kenne ich aus Minecraft (obviously)."
+                        src="images/me/music/c418.jpg">
+                    <img title="Jan Delay / Kenne ich durch das Fernsehen."
+                        src="images/me/music/jan_delay.jpg">
+                    <img title="Michael Jackson / Weltbekannt. Ich bin auch Mitglied von der Welt."
+                        src="images/me/music/michael_jackson.jpg">
+                </div>
+            </div>
+            <div class="model-m">
+                <h1>Vorbilder und Inspirationsquellen, die ich habe:</h1>
+                <h2>(nicht sortiert)</h2>
+                <ul>
+                    <li>Freunde und Verwandte</li>
+                    <li>Robert Habeck</li>
+                    <li>Alexander von Humboldt</li>
+                    <li>Karl Lauterbach</li>
+                    <li>Kevin Kühnert</li>
+                    <li>Richard David Precht</li>
+                    <li>Jan Böhmermann</li>
+                    <li>Markus Lanz</li>
+                    <li>Olli Schulz</li>
+                    <li>Harald Lesch</li>
+                    <li>Rosa Luxemburg</li>
+                    <li>Barack Obama</li>
+                    <li>Martin Sonneborn</li>
+                    <li>Kurt Krömer</li>
+                    <li>Greta Thunberg</li>
+                    <li>Der Artegenosse</li>
+                    <li>Gregor Gysi</li>
+                    <li>Kurzgesagt</li>
+                    <li>Bibel, Jesus</li>
+                    <li>Martin Luther</li>
+                    <li>Martin Luther 👑</li>
+                    <br>
+                    <li>NICHT Grosse-Brömer</li>
+                    <li>NICHT Armin Laschet</li>
+                    <li>NICHT Phillip Amthor</li>
+                    <li>NICHT Trymacs</li>
+                </ul>
+            </div>
+        </div>
+        <div class="friends-m">
+            <h1>Freundesliste</h1>
+            <h2>(Ich verwende Kürzel statt Klarnamen) links = sehr gut befreundet; rechts = weniger gut befreundet</h2>
+            <h1>LP TK FP TS SN BS TSe JA</h1>
+        </div>
+        <div id="load-footer"></div>
     </div>
-    <div class="who">
-      <h2>Einleitung</h2>
-      <b>Hallo! Ich bin Simon aka. Hoffalex aka hfflx.</b>
-      <br>
-      Ich bin ein Schüler aus Deutschland. Für die Vorstellung meiner Person nutze ich auf dieser Seite Grafiken und
-      Tabellen. Ich betreibe neben dieser Website übrigens auch einen
-      <a href="https://www.youtube.com/channel/UC1ZE6YN0wcV0nE1xpLI6fWg" style="color: red; font-weight: bold;"
-        target="_blank">Youtube-Channel</a>
-      und ein <a href="https://giphy.com/channel/Hoffalex" style="color: rebeccapurple; font-weight: bold;"
-        target="_blank">Giphy-Profil</a>.
-      <hr style="color: yellow;">
-      <p>Hier noch einige Hinweise:</p>
-      <li>Ich nutze Namenskürzel, um Namen von Privat-Personen zu verschlüsseln. Bitte nicht aufschlüsseln!</li>
-      <li>Meine Ansichten ändern sich oft.</li>
-      <li>Wenn du Ananas auf <span title="Lecker">Pizza</span> isst, dann drücke Strg + W, bzw. Ctrl+W.</li>
-      <li>Bei Beschwerde (z.B. Rechtschreibfehler oder Unzufriedenheit mit Kürzel) oder bei einem technischen Problem
-        mich auf <a href="https://github.com/Hoffalex0" style="color: gray; font-weight: bold;"
-          target="_blank">GitHub</a> kontaktieren.</li>
-    </div>
-    <div class="list">
-      <h2>Überblick</h2>
-      <table border="1">
-        <tbody>
-          <tr>
-            <td>Name</td>
-            <td>Simon</td>
-          </tr>
-          <tr>
-            <td>Spezies</td>
-            <td>Mensch</td>
-          </tr>
-          <tr>
-            <td>Biologisches Geschlecht</td>
-            <td>Maskulin</td>
-          </tr>
-          <tr>
-            <td>Herkunft</td>
-            <td>Deutschland</td>
-          </tr>
-          <tr>
-            <td>Wohnort</td>
-            <td>Buchholz</td>
-          </tr>
-          <tr>
-            <td>Identitäres Geschlecht</td>
-            <td>Männlich</td>
-          </tr>
-          <tr>
-            <td>Geburtsdatum</td>
-            <td>25.10.</td>
-          </tr>
-          <tr>
-            <td>Anzahl<br>Brüder oder Schwestern</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Anzahl<br>Thekenschalen</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>Haustiere</td>
-            <td>2 Kaninchen</td>
-          </tr>
-          <tr>
-            <td>Religion</td>
-            <td>Christlich (freikirchlich)</td>
-          </tr>
-          <tr>
-            <td>Hobbys, Interessen</td>
-            <td>Imkern, Latein, Programmierung & Technik, <br>Eisenbahn, Naturwissenschaft, Rhetorik, <br>Gitarre
-              spielen</td>
-          </tr>
-          <tr>
-            <td>Stört mich</td>
-            <td>Fleisch, Angeberei, Gewalt, <br>Geschlechterrollen</td>
-          </tr>
-          <tr>
-            <td>Desinteresse</td>
-            <td>Fußball, Autos, Memes, <br>alle Videospiele</td>
-          </tr>
-          <tr>
-            <td>Sprachen</td>
-            <td>Deutsch, Englisch, Latein, Schweigen</td>
-          </tr>
-          <tr>
-            <td>Stärken</td>
-            <td>Schreiben, Lernen, Präsentieren</td>
-          </tr>
-          <tr>
-            <td>Schwächen</td>
-            <td>Unterschätzung, neue Leute kennenlernen, Website designen und regelmäßig bearbeiten</td>
-          </tr>
-          <tr>
-            <td>Preise/Auszeichnungen</td>
-            <td>Gewinner bei „Mathe im Advent“</td>
-          </tr>
-          <tr>
-            <td>Engagments für die Allgemeinheit</td>
-            <td>Mitglied bei Bündnis 90 / Die Grünen, regelmäßiges Müllaufsammeln bei mir im Ort, Regelmäßige Spenden an FridaysForFuture, Mitglied im Jugendrat Buchholz</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="friends">
-      <h2>Freund*innen</h2>
-      <p>Die Farbe grün symbolisiert eine gute Freundschaft. Je weiter gelb eine Person ist, desto eher bin ich mir
-        unsicher, dass diese Freundschaft lange hält.</p>
-      <img src="/img/friendsline.png">
-      <div class="friendnames">
-        <div>TS</div>
-        <div>LP</div>
-        <div>TK</div>
-        <div>FP</div>
-        <div>TSe</div>
-        <div>JA</div>
-        <div>SN</div>
-        <div>BS</div>
-        <div>Mein Handy</div>
-      </div>
-    </div>
-    <div class="other">
-      <h2>Weiteres</h2>
-      <p>Schule: Gymnasium</p>
-      <p>Was ich am meisten an mir hasse: Wirbel in den Haaren</p>
-      <p>Lieblingsessen: Tomaten-Reis</p>
-      <p>Vorbilder: Freunde und Verwandte, Barack Obama, Robert Habeck, Kevin
-        Kühnert, Jan Böhmermann, Martin Sonneborn, Richard David Precht, Kurt Krömer, Alexander von Humboldt</p>
-    </div>
-    <div class="music-film">
-      <h2>Lieblingsmusik</h2>
-      <p>Interpret*innen, die ich gerne höre: (geordnet von oft gehört bis mäßig-oft gehört</p>
-      <ul>
-        <li>Radiohead</li>
-        <li>ABBA</li>
-        <li>Bee Gees</li>
-        <li>Jan Delay</li>
-        <li>Deichkind</li>
-        <li>Bob Dylan</li>
-        <li>POL1Z1STENS0HN aka. Jan Böhmermann</li>
-        <li>The Beatles</li>
-        <li>Michael Jackson</li>
-        <li>C418</li>
-        <li>Daft Punk</li>
-        <li>Elton John</li>
-        <li>Udo Lindenberg</li>
-        <li>Adele</li>
-        <li>Queen</li>
-        <li>Herbert Grönemeyer</li>
-        <li>Ton Steine Scherben</li>
-        <li>Falco</li>
-        <li>Hillsong Worship</li>
-        <li>Rick Astley (xD)</li>
-        <li>Epic Mountain</li>
-        <li>Buena Vista Social Club</li>
-        <li>Mort Garson</li>
-        <li>Depeche Mode</li>
-        <li>Sigrid</li>
-        <li>Al Stewart</li>
-        <li>Luther Vandross</li>
-        <li>Pixies</li>
-        <li>Bruce Springsteen</li>
-        <li>Huey Lewis & The News</li>
-        <li>Hillsong Worship</li>
-        <li>Elvis Presley</li>
-        <li>Luther Vandross</li>
-        <li>NIHILS</li>
-        <li>Tocotronic</li>
-        <li>NICHT Mark Forster</li>
-        <li>NICHT Max Giesinger</li>
-        <li>NICHT Imagine Dragons</li>
-        <li>NICHT Apache 207</li>
-        <li>NICHT Gaming-Musik</li>
-      </ul>
-    </div>
-  </div>
-  <div id="load-footer"></div>
 </body>
+
 </html>
