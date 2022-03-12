@@ -53,7 +53,7 @@ function console() {
         consolemarginclear();
         elementgetterConsolas.innerHTML = "Meine nicht vorhandenen Text-Empfehlungen.";
     } else if (typedConsolas == "easter egg") {
-        alert('EIN EASTEREGG!');
+        alert(':)');
     } else alert('Error!');
 }
 
@@ -97,7 +97,7 @@ const loadFooter = async () => {
 // Datum, auf das heruntergezählt wird.
 var countDownDate = new Date("Jul 22, 2029 00:00:00").getTime();
 
-var x = setInterval(function() {
+var x = setInterval(function () {
 
     var now = new Date().getTime();
 
