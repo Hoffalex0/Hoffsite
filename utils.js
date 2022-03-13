@@ -132,4 +132,3 @@ imager();
 loadNavbar();
 loadFooter();
 /*Thanks to Odincat!*/
-Copied
