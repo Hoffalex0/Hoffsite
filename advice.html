@@ -7,40 +7,40 @@
     <meta name="title" content="Hoffsite - Hofsite ist Fake." />
     <meta name="description" content="Die Seite von hfflx.">
     <link rel="shortcut icon" type="image/x-icon" href="images/logos/ukraine_logo.jpg" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
 </head>
 
 <body>
     <div class="inhalt-desk">
         <div class="toprandom-i">
             <div id="ausgabe"></div>
-            <input style="height: 50px; position: absolute; top: 5px; right: 5px;" type="image"
-                src="images/icons/Dice_icon.png" onclick="imager()">
+            <input class="random-button" type="image"
+            src="images/icons/Dice_icon.png" onclick="imager()">
         </div>
         <script src="/utils.js"></script>
         <div id="load-nav"></div>
         <h1>Empfehlungen von mir</h1>
         <h2>Wenn du meine Video-, Musik-, Rezept- und Textempfehlung sehen willst, dann gebe "<span class="underline">ls
-                advice</span>" ein.</h2>
-        <div class="console-container-a" style="text-align: left; font-family: 'Courier New', Courier, monospace;">
-            <div class="console-header-a">
-                <div><span onclick="alert('Willst du wirklich abbrechen? Dann drücke nicht OK.')">🔴</span>
-                    <span onclick="alert('Du willst meine Empfehlungen ausblenden? 😥')">🟡</span> <span
+            advice</span>" ein.</h2>
+            <div class="console-container-a" style="text-align: left; font-family: 'Courier New', Courier, monospace;">
+                <div class="console-header-a">
+                    <div><span onclick="alert('Willst du wirklich abbrechen? Dann drücke nicht OK.')">🔴</span>
+                        <span onclick="alert('Du willst meine Empfehlungen ausblenden? 😥')">🟡</span> <span
                         onclick="alert('Das Fenster ist groß genug!')">🟢</span>
+                    </div>
+                    <div>Terminal</div>
+                    <div>hoffsite@normal_user</div>
                 </div>
-                <div>Terminal</div>
-                <div>hoffsite@normal_user</div>
+                <div id="comandline-a">
+                    <span style="color: lime;">hoffsite@normal_user: -$</span>
+                    <input type="text" id="terminalconsole" placeholder="Tippe hier!" autofocus>
+                </div>
+                <div id="commandausgabe"></div>
+                <button onclick="console()">Enter</button>
             </div>
-            <div id="comandline-a">
-                <span style="color: lime;">hoffsite@normal_user: -$</span>
-                <input type="text" id="terminalconsole" placeholder="Tippe hier!" autofocus>
-            </div>
-            <div id="commandausgabe"></div>
-            <button type="submit" onclick="console()">Enter</button>
+            <div id="load-footer"></div>
         </div>
-        <div id="load-footer"></div>
-    </div>
-</body>
-<p class="errormobile">Noch nicht Mobile-Resposive. :/ Update folgt in wenigen Wochen.</p>
-
-</html>
+    </body>
+    
+    
+    </html>

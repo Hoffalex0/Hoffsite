@@ -1,0 +1,12 @@
+{
+	"Create a region": {
+		"prefix": "rg",
+		"body": [
+			"/* #region ${1} */",
+			"${0}",
+			"/* #endregion */"
+		],
+		"description": "Create region",
+	   "scope": "scss,php"
+	},
+}

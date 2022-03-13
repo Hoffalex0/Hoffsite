@@ -19,3 +19,11 @@ Ru: Это скрипт с моего сайта "hoffsite.de". Сообщайт
 - [ ] Revolution kommerzialisieren -> Revo-Lotion
 - [ ] mindestens 3 Artikel veröffentlicht haben
 - [ ] das letzte ToDo schreiben
+
+## Lokale Entwicklung
+
+### Vorraussetzungen
+- NodeJS (Version 14-17 sollte passen)
+- Computer
+
+### How 
