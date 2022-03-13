@@ -127,6 +127,18 @@ ul#nav li.right {
     margin-left: 3%;
 }
 
+.article-preview-announce-i {
+    background-color: #1E90FF;
+    width: 40%;
+    color: black;
+}
+
+.projects-preview-announce-i {
+    background-color: orange;
+    width: 40%;
+    color: black;
+}
+
 /*Blog-Slide*/
 * {
     box-sizing: border-box
