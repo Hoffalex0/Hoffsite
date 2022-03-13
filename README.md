@@ -27,3 +27,6 @@ Ru: Это скрипт с моего сайта "hoffsite.de". Сообщайт
 - Computer
 
 ### How 
+1. Run an good old `npm install`
+2. Run `npm run develop`
+3. Enjoy!
