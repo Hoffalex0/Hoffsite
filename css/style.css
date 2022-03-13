@@ -16,18 +16,50 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
-    .errormobile {
-        display: block;
-        color: white;
+    body {
+        padding: 0;
+        margin: 0;
     }
 
     .inhalt-desk {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    #ausgabe {
         display: none;
+    }
+
+    .random-button {
+        display: none;
+    }
+
+    ul#nav {
+        display: none;
+    }
+
+    #mobilenav {
+        display: block !important;
+    }
+
+    .tools-i {
+        display: block !important;
+    }
+
+    .projectpreview-i {
+        display: block !important;
+    }
+
+    .projectpreview-i div {
+        width: 100% !important  ;
     }
 }
 
-.inhalt-mob {
-    display: none;
+.random-button {
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
 
 .inhalt-desk {
@@ -43,6 +75,21 @@ a {
 
 .toprandom-i img {
     width: 100%;
+}
+
+#mobilenav {
+    display: none;
+    background-color: #029E2C;
+}
+
+ul#mobilenav-ul {
+    display: none;
+    list-style: none;
+}
+
+ul#mobilenav-ul li a span {
+    color: white;
+    font-size: x-large;
 }
 
 ul#nav {

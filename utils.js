@@ -62,8 +62,18 @@ function rain() {
     //Angefangen!
 }
 
+
+function mobilemenu() {
+    ausgeklappt = !ausgeklappt;
+    if (ausgeklappt == true) {
+        document.getElementById('mobilenav-ul').style.display = "block";
+    } else if (ausgeklappt == false) {
+        document.getElementById('mobilenav-ul').style.display = "none";
+    }
+}
+
 /* Load OUR (communism) navbar */
-const loadNavbar = async () => {
+async function loadNavbar() {
     const response = await fetch('/navbar.html');
     const text = await response.text();
     const oldelement = document.querySelector("div#load-nav");
@@ -82,7 +92,7 @@ const loadNavbar = async () => {
             item.classList.add('active');
         }
     }
-};
+}
 
 /* Load OUR (communism) footer */
 const loadFooter = async () => {
@@ -117,6 +127,7 @@ var x = setInterval(function () {
     }
 }, 1000);
 
+var ausgeklappt = false;
 imager();
 loadNavbar();
 loadFooter();
