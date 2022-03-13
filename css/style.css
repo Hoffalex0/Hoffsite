@@ -366,6 +366,12 @@ ul#nav li.right {
     width: 5%;
 }
 
+.fff-ad {
+    background-color: #029E2C;
+    font-weight: bolder;
+    padding: 10px;
+}
+
 /*Blog-Styling*/
 .fun-b {
     display: flex;
