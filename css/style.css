@@ -19,6 +19,7 @@ a {
     body {
         padding: 0;
         margin: 0;
+        font-size: xx-large;
     }
 
     .inhalt-desk {
@@ -51,7 +52,11 @@ a {
     }
 
     .projectpreview-i div {
-        width: 100% !important  ;
+        width: 100% !important;
+    }
+
+    .text-i {
+        font-size: 30px !important;
     }
 }
 
@@ -80,16 +85,21 @@ a {
 #mobilenav {
     display: none;
     background-color: #029E2C;
+    padding: 50px;
+}
+
+#mobilenav img {
+    height: 100px;
 }
 
 ul#mobilenav-ul {
     display: none;
     list-style: none;
+    font-size: 100px;
 }
 
 ul#mobilenav-ul li a span {
     color: white;
-    font-size: x-large;
 }
 
 ul#nav {
@@ -422,6 +432,7 @@ ul#nav li.right {
 /*Blog-Styling*/
 .fun-b {
     display: flex;
+    flex-wrap: wrap;
     background-color: dodgerblue;
     width: 46%;
     margin-left: 28%;
