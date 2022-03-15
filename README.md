@@ -15,7 +15,7 @@ Ru: Это скрипт с моего сайта "hoffsite.de". Сообщайт
 - [x] Navbar und Downbar als separate Datei
 - [x] Menschen glauben lassen, dass es die Hoffalex-Company gibt
 - [x] Schriftart ändern
-- [ ] kommunistische Revolution
+- [x] kommunistische Revolution
 - [ ] Revolution kommerzialisieren -> Revo-Lotion
 - [ ] mindestens 3 Artikel veröffentlicht haben
 - [ ] das letzte ToDo schreiben

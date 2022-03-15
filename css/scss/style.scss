@@ -7,6 +7,7 @@ $red: #E30613;
 $pink: #E32DDD;
 $black: #000;
 $white: #fff;
+$transparentforest: rgba(34, 139, 34, 0.849);
 /* #endregion */
 
 /* #region Reset */
@@ -835,3 +836,57 @@ ul {
         padding: 10px;
     }
 }
+
+.body-kgblog {
+    padding: 0;
+    margin: 0;
+}
+
+.inhalt-kgblog {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.imgflip.com%2F4wxw0h.jpg&f=1&nofb=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-attachment: fixed;
+
+    .top-kg, .artikel-kg {
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        border-radius: 20px;
+    }
+
+    .top-kg {
+        background-color: $transparentforest;
+        margin-bottom: 5%;
+    }
+    .artikel-kg {
+        background-color: $transparentforest;
+        color: white;
+        width: 85%;
+        padding: 2%;
+        margin-bottom: 5%;
+
+        hr {
+            color: white;
+            border: #f2f2f2 solid 3px;
+            border-radius: 50px;
+        }
+
+        .container-artikel-kg {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            img {
+                width: 60%;
+            }
+
+            table, th, td{
+                border: 1px solid white;
+                border-collapse: collapse;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+/* THANKS TO ODINCAT!!! GOOD WORK! */
