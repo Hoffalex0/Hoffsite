@@ -64,42 +64,42 @@ body {
         margin: 0;
         font-size: xx-large;
     }
-
+    
     .inhalt-desk {
         width: 100% !important;
         margin: 0 !important;
     }
-
+    
     #ausgabe {
         display: none;
     }
-
+    
     .random-button {
         display: none;
     }
-
+    
     ul#nav {
         display: none;
     }
-
+    
     #mobilenav {
         display: block !important;
     }
-
+    
     .tools-i {
         display: block !important;
     }
-
+    
     .projectpreview-i {
         display: block !important;
     }
-
+    
     .projectpreview-i  {
         div {
-            width: 100% !important  ;
+            width: 100% !important;
         }
     }
-
+    
     .text-i {
         font-size: 30px !important;
     }
@@ -109,7 +109,7 @@ body {
 /* #region Top */
 .toprandom-i {
     position: relative;
-
+    
     img {
         width: 100%;
     }
@@ -129,7 +129,7 @@ body {
     display: none;
     background-color: #029E2C;
     padding: 50px;
-
+    
     img {
         height: 100px;
     }
@@ -139,7 +139,7 @@ ul {
         display: none;
         list-style: none;
         font-size: 100px;
-
+        
         li {
             a {
                 span {
@@ -148,7 +148,7 @@ ul {
             }
         }
     }
-
+    
     &#nav {
         list-style-type: none;
         margin: 0;
@@ -162,7 +162,7 @@ ul {
         
         li {
             float: left;
-
+            
             &.right {
                 float: right;
             }
@@ -224,12 +224,12 @@ ul {
     margin-top: 10%;
     color: #191919;
     font-weight: bold;
-
+    
     img {
         height: 100px;
         margin-left: 1%;
     }
-
+    
     h2 {
         margin-right: auto;
         margin-left: 3%;
@@ -339,7 +339,7 @@ ul {
     from {
         opacity: .4
     }
-
+    
     to {
         opacity: 1
     }
@@ -349,7 +349,7 @@ ul {
     from {
         opacity: .4
     }
-
+    
     to {
         opacity: 1
     }
@@ -367,25 +367,25 @@ ul {
         padding: 10px;
         justify-content: center;
         flex-wrap: wrap;
-
+        
         div {
             margin-left: 2px;
             margin-right: 2px;
             width: 20%;
             font-size: 90%;
-
+            
             img {
                 margin-top: 10px;
                 width: 50%;
             }
         }
-
+        
         // individual projects
         .projectpreview-i-1 {
             background-color: $red;
             border: whitesmoke solid 4px;
             padding: 0 20px 0 20px;
-
+            
             a {
                 &:link {
                     color: whitesmoke;
@@ -398,60 +398,60 @@ ul {
                 }
             }
         }
-
+        
         .projectpreview-i-2 {
             color: black;
             background-image: url('/images/writings.jpg');
             border: black solid 4px;
             padding: 0 20px 0 20px;
-
+            
             a {
                 &:link {
                     color: black;
                     background-color: transparent;
                     text-decoration: none;
                 }
-
+                
                 &:visited {
                     color: black;
                     text-decoration: none;
                 }
             }
         }
-
+        
         .projectpreview-i-3 {
             color: whitesmoke;
             background-color: yellowgreen;
             border: green solid 4px;
             padding: 0 20px 0 20px;
-
+            
             a {
                 &:link {
                     color: whitesmoke;
                     background-color: transparent;
                     text-decoration: none;
                 }
-
+                
                 &:visited {
                     color: whitesmoke;
                     text-decoration: none;
                 }
             }
         }
-
+        
         .projectpreview-i-4 {
             color: whitesmoke;
             background: linear-gradient(to bottom right, #218fd8, #6fe3fc);
             border: yellow solid 4px;
             padding: 0 20px 0 20px;
-
+            
             a {
                 &:link {
                     color: whitesmoke;
                     background-color: transparent;
                     text-decoration: none;
                 }
-
+                
                 &:visited {
                     color: whitesmoke;
                     text-decoration: none;
@@ -493,7 +493,7 @@ ul {
     width: 46%;
     margin-left: 28%;
     margin-left: 28%;
-
+    
     div {
         input {
             width: 100px;
@@ -521,7 +521,7 @@ ul {
     margin-bottom: 4%;
     padding: 2%;
     font-size: large;
-
+    
     button {
         background-color: $red;
         border: white solid 5px;
@@ -546,7 +546,7 @@ ul {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-
+    
     details {
         background-color: $pink;
         color: $black;
@@ -557,7 +557,7 @@ ul {
         padding: 1%;
         font-family: Verdana;
         font-weight: bolder;
-
+        
         summary {
             color: $white;
         }
@@ -566,13 +566,13 @@ ul {
 
 .music-m-model-m {
     display: flex;
-
+    
     .music-m {
         padding: 1%;
         background-color: #1ED760;
         margin: 1%;
         width: 48%;
-
+        
         .musician-m {
             display: flex;
             flex-wrap: wrap;
@@ -582,19 +582,19 @@ ul {
             }
         }
     }
-
+    
     .model-m {
         margin: 1%;
         padding: 1%;
         background-color: #D7341E;
         width: 48%;
     }
-
+    
     .friends-m {
-    background-image: linear-gradient(to right, lime, orange);
-    padding: 1%;
-    margin: 1%;
-}
+        background-image: linear-gradient(to right, lime, orange);
+        padding: 1%;
+        margin: 1%;
+    }
 }
 /* #endregion */
 
@@ -608,26 +608,26 @@ ul {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-
+    
     img {
         width: 40%;
         margin: 1%;
         border: lime solid 10px;
     }
-
+    
     h1 {
         a {
             font-size: 100px;
             color: white;
         }
     }
-
+    
     h3 {
         a {
             color: white;
         }
     }
-
+    
     .kreis-a-b {
         border-radius: 100px 100px 100px 100px;
         padding: 100px;
@@ -645,17 +645,17 @@ ul {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-
+    
     img {
         width: 60%;
         margin: 1%;
         border: $pink solid 10px;
     }
-
+    
     h1 {
         font-size: 100px;
     }
-
+    
     .kreis-b-b {
         border-radius: 100px 100px 100px 100px;
         padding: 100px;
@@ -673,17 +673,17 @@ ul {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-
+    
     img {
         width: 90%;
         margin: 1%;
         border: yellow solid 10px;
     }
-
+    
     h1 {
         font-size: 100px;
     }
-
+    
     .kreis-c-b {
         border-radius: 100px 100px 100px 100px;
         padding: 100px;
@@ -696,29 +696,29 @@ ul {
 /* #region PROJECTS */
 .projects {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    
     .title-p {
         background-color: #FFA500;
         padding: 2%;
         color: black;
     }
-
+    
     .projektschau-p {
         display: flex;
         margin-bottom: 2%;
-
+        
         .projektschau-p-item {
             background-color: #FFA500;
             margin-left: 6%;
             padding: 2%;
             color: black;
         }
-
+        
         div {
             margin-bottom: 2%;
         }
     }
-
+    
     .projektschau-p-jfn {
         color: white;
         background-color: red;
@@ -780,7 +780,7 @@ ul {
     color: white;
     border: none;
     background-color: black
-        /*lives matter*/
+    /*lives matter*/
     ;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -797,7 +797,7 @@ ul {
     width: 95%;
     margin-left: 4%;
     margin-right: 4%;
-
+    
     h1 {
         margin-left: 5%;
         margin-bottom: 0;
@@ -813,12 +813,12 @@ ul {
 .bildunduntertitel-ba {
     display: flex;
     flex-wrap: wrap;
-
+    
     img {
         width: 40%;
         border: $light-blue solid 5px;
     }
-
+    
     span {
         width: 40%;
         margin-left: 5%;
