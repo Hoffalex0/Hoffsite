@@ -16,17 +16,20 @@ function imager() {
 function lighter() {
     const currentCase = document.getElementById("lighterswitch").value
     const area = document.querySelector("body");
-    if (currentCase == "Zum hellen Modus wechseln. (experimentell, aber schlimmer als jetzt kann es nicht werden. Oder?)") {
-        area.style.background = "whitesmoke";
-        document.querySelector(".page-index").style.color = "black";
-        document.getElementById("lighterswitch").value = "Zum dunklen Modus wechseln. (Schnell wieder weg hier!)";
+    if (currentCase == "Heller Modus") {
+        area.style.background = "rgb(173, 173, 173)";
+        document.querySelector(".inhalt-desk").style.background = "whitesmoke";
+        document.getElementById("nav").style.background = "rgb(173, 173, 173)"
+        document.getElementById("lighterswitch").value = "Dunkler Modus";
+        document.getElementById("lighterswitch").style.background = "black";
+        document.getElementById("lighterswitch").style.color = "whitesmoke";
     } else {
         area.style.background = "black";
-        document.querySelector(".page-index").style.color = "whitesmoke";
-        document.querySelector(".page-blog").style.color = "whitesmoke";
-        document.querySelector(".page-advice").style.color = "whitesmoke";
-        document.getElementById("lighterswitch").value = "Zum hellen Modus wechseln. (experimentell, aber schlimmer als jetzt kann es nicht werden. Oder?)";
-
+        document.querySelector(".inhalt-desk").style.background = "#191919";
+        document.getElementById("nav").style.background = "black"
+        document.getElementById("lighterswitch").value = "Heller Modus";
+        document.getElementById("lighterswitch").style.background = "whitesmoke";
+        document.getElementById("lighterswitch").style.color = "black";
     }
 }
 
