@@ -1,0 +1,55 @@
+/*Allgemein*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  background-color: red;
+  overflow-x: hidden;
+}
+.nav {
+  width: 1835px;
+  position: top;
+}
+.inhalt {
+  background-color: white;
+  padding: 4%;
+  width: auto;
+  margin-left: 4%;
+  margin-right: 4%;
+  border: gray solid 10px;
+  text-align: center;
+}
+h1 {
+  text-decoration: underline;
+}
+strong {
+  text-decoration: underline;
+}
+/*Vorversuche*/
+.vv-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.vv-container > div {
+  width: 40%;
+  padding: 5%;
+}
+
+.vv-image-s {
+  width: 70%;
+  border: #FF1904 solid 9px;
+}
+.ergebnissvv {
+  background: gray;
+}
+.vv-image-b {
+  width: 70%;
+  border: #0044FF solid 9px;
+}
+.vvs-container {
+  display: flex;
+  justify-content: center;
+}
+.vvs-container > div {
+  width: 40%;
+}
