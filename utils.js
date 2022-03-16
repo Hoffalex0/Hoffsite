@@ -33,6 +33,11 @@ function lighter() {
     }
 }
 
+function copytext() {
+    navigator.clipboard.writeText("https://hoffsite.de/article/rollsseufz");
+    alert("Link kopiert");
+  }
+
 function consolemarginclear() {
     document.querySelector("#comandline-a input[type=text]").style.margin = "1%";
 }
