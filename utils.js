@@ -44,22 +44,41 @@ function consolemarginclear() {
 
 function console() {
     const typedConsolas = document.getElementById("terminalconsole").value;
-    const elementgetterConsolas = document.getElementById("commandausgabe");
     if (typedConsolas == "ls advice") {
         consolemarginclear();
-        elementgetterConsolas.innerHTML = "Eine Liste von meinen Empfehlungsarten: <ul><li>Video-Empfehlungen: ls advice video</li><li>Musik-Empfehlungen: ls advice music (powered by spotify)</li><li>(Pflanzliche) Rezept-Empfehlungen: ls advice recipe</li><li>Text-Empfehlungen: ls advice text (hier ist noch nichts)</li></ul>";
+        document.querySelector('.info-advice-a').style.display = "block";
+        document.querySelector('.video-advice-a').style.display = "none";
+        document.querySelector('.music-advice-a').style.display = "none";
+        document.querySelector('.recipe-advice-a').style.display = "none";
+        document.querySelector('.text-advice-a').style.display = "none";
     } else if (typedConsolas == "ls advice video") {
         consolemarginclear();
-        elementgetterConsolas.innerHTML = "Meine Video-Empfehlungen.";
+        document.querySelector('.info-advice-a').style.display = "none";
+        document.querySelector('.video-advice-a').style.display = "block";
+        document.querySelector('.music-advice-a').style.display = "none";
+        document.querySelector('.recipe-advice-a').style.display = "none";
+        document.querySelector('.text-advice-a').style.display = "none";
     } else if (typedConsolas == "ls advice music") {
         consolemarginclear();
-        elementgetterConsolas.innerHTML = "Meine Musik-Empfehlungen.";
+        document.querySelector('.info-advice-a').style.display = "none";
+        document.querySelector('.video-advice-a').style.display = "none";
+        document.querySelector('.music-advice-a').style.display = "block";
+        document.querySelector('.recipe-advice-a').style.display = "none";
+        document.querySelector('.text-advice-a').style.display = "none";
     } else if (typedConsolas == "ls advice recipe") {
         consolemarginclear();
-        elementgetterConsolas.innerHTML = "Meine Rezept-Empfehlungen.";
+        document.querySelector('.info-advice-a').style.display = "none";
+        document.querySelector('.video-advice-a').style.display = "none";
+        document.querySelector('.music-advice-a').style.display = "none";
+        document.querySelector('.recipe-advice-a').style.display = "block";
+        document.querySelector('.text-advice-a').style.display = "none";
     } else if (typedConsolas == "ls advice text") {
         consolemarginclear();
-        elementgetterConsolas.innerHTML = "Meine nicht vorhandenen Text-Empfehlungen.";
+        document.querySelector('.info-advice-a').style.display = "none";
+        document.querySelector('.video-advice-a').style.display = "none";
+        document.querySelector('.music-advice-a').style.display = "none";
+        document.querySelector('.recipe-advice-a').style.display = "none";
+        document.querySelector('.text-advice-a').style.display = "block";
     } else if (typedConsolas == "easter egg") {
         alert(':)');
     } else alert('Error!');

@@ -239,7 +239,7 @@ ul {
 
 /* #region HOME: Blog */
 .blog-preview-container {
-    h1 {
+    h2 {
         background-color: $light-blue;
         width: 40%;
         color: $black;
@@ -784,6 +784,27 @@ ul {
     ;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.info-advice-a {
+    display: none;
+}
+
+.music-advice-a {
+    display: none;
+}
+
+.video-advice-a {
+    display: none;
+}
+
+.text-advice-a {
+    display: none;
+}
+
+.recipe-advice-a {
+    display: none;
+}
+
 /* #endregion */
 
 
@@ -828,23 +849,30 @@ ul {
 }
 
 .tweet-ba {
-    background-color: blue;
-    color: white;
-    padding: 10px;
+
+    img {
+        width: 50px;
+        background-color: white;
+        border-radius: 15px;
+    }
 }
 
 .mail-ba {
-    background-color: darkred;
-    color: white;
-    padding: 10px;
+    img {
+        width: 50px;
+        background-color: rebeccapurple;
+        border-radius: 15px;
+    }
 }
 
 .link-ba {
-    background-color: white;
-    color: black;
-    padding: 10px;
+    cursor: pointer;
+    img {
+        width: 50px;
+        background-color: greenyellow;
+        border-radius: 15px;
+    }
 }
-
 .climateclock {
     background: linear-gradient(to top, red, orange);
     
