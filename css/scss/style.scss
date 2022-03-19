@@ -8,6 +8,7 @@ $pink: #E32DDD;
 $black: #000;
 $white: #fff;
 $transparentforest: rgba(34, 139, 34, 0.849);
+$space: rgb(0, 0, 53);
 /* #endregion */
 
 /* #region Reset */
@@ -458,6 +459,21 @@ ul {
                 }
             }
         }
+        .projectpreview-i-5 {
+            background-color: #1564be;
+            border: white solid 4px;
+            a {
+                &:link {
+                    color: #1564be;
+                }
+                &:visited {
+                    color: #1564be;
+                }
+            }
+            h1, h2 {
+                background-color: #78ae3f;
+            }
+        }
     }
 }
 
@@ -527,6 +543,11 @@ ul {
         border: white solid 5px;
         padding: 1%;
         color: white;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        border: $red solid 4px;
     }
 }
 
@@ -754,6 +775,11 @@ ul {
         border: yellow solid 5px;
         font-weight: bolder;
     }
+    .projektschau-p-kurzgedacht {
+        background-color: $space;
+        border: blue solid 5px;
+        color: white;
+    }
 }
 
 /* #endregion */
@@ -935,4 +961,4 @@ ul {
     }
 }
 
-/* THANKS TO ODINCAT!!! GOOD WORK! */
+/* THANKS TO ODINCAT!!! GOOD WORK! <3*/
