@@ -174,7 +174,6 @@ ul {
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
-                
                 &.active {
                     background-color: #191919;
                     opacity: 0.5;
@@ -961,4 +960,50 @@ ul {
     }
 }
 
-/* THANKS TO ODINCAT!!! GOOD WORK! <3*/
+/* #region Präsentationen*/
+.anfangsfolie-ppp {
+    display: none;
+    h1 {
+        font-size: xxx-large;
+    }
+    button {
+        font-size: xxx-large;
+        padding: 2% 5% 2% 5%;
+    }
+}
+
+.folie-ppp {
+    .inhaltfolie-ppp {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .left-arrow-ppp, .right-arrow-ppp {
+        position: absolute;
+        bottom: 230px;
+        background-color: #029E2C;
+    }
+    .left-arrow-ppp {
+        left: 10px;
+    }
+    .right-arrow-ppp {
+        right: 10px;
+    }
+}
+
+.rainbow p {
+    animation-name: rainbow;
+    animation-duration: 2s;
+}
+
+@keyframes rainbow {
+    from {
+        text-shadow: 0 0 100px $red;
+    }
+    to {
+        text-shadow: 0 0 100px $pink;
+    }
+}
+/* #endregion */
+
+/*#region THANKS TO ODINCAT!!! GOOD WORK! <3*/
