@@ -89,6 +89,17 @@ function rain() {
     //Angefangen!
 }
 
+function passwortPrüfen() {
+    const typedPasswort = document.getElementById("passworteingabe").value;
+    if (typedPasswort == "Test") {
+        alert('| |');
+    } else {
+        document.querySelector('.schwach').style.display = "block";
+        document.querySelector('.mittel').style.display = "none";
+        document.querySelector('.stark').style.display = "none"
+    }
+}
+
 
 function mobilemenu() {
     ausgeklappt = !ausgeklappt;

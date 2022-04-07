@@ -1,0 +1,107 @@
+<body>
+    <div class="drop"></div>
+    <div class="wave"></div>
+    <style>
+        /*not my work, but OK*/
+        body {
+            background-color: skyblue;
+            overflow: hidden;
+        }
+
+        div {
+            margin: 175px auto;
+        }
+
+        .drop {
+            position: relative;
+            width: 20px;
+            height: 20px;
+            top: -30px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            animation-name: drip;
+            animation-timing-function: cubic-bezier(1, 0, .91, .19);
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        .drop:before {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 30px solid rgba(255, 255, 255, 1);
+            top: -22px;
+        }
+
+        .wave {
+            position: relative;
+            opacity: 0;
+            top: 0;
+            width: 2px;
+            height: 1px;
+            border: #FFF 7px solid;
+            border-radius: 300px / 150px;
+            animation-name: ripple;
+            animation-delay: 2s;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        .wave:after {
+            content: "";
+            position: absolute;
+            opacity: 0;
+            top: -5px;
+            left: -5px;
+            width: 2px;
+            height: 1px;
+            border: #FFF 5px solid;
+            border-radius: 300px / 150px;
+            animation-name: ripple-2;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes ripple {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                width: 600px;
+                height: 300px;
+                border-width: 1px;
+                top: -100px;
+                opacity: 0;
+            }
+        }
+
+        @keyframes ripple-2 {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                width: 200px;
+                height: 100px;
+                border-width: 1px;
+                top: 100px;
+                left: 200px;
+            }
+        }
+
+        @keyframes drip {
+            to {
+                top: 190px;
+            }
+        }
+    </style>
+</body>
