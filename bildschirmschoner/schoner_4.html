@@ -1,0 +1,61 @@
+<body class="schoner-vier">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            cursor: none;
+            font-size: 700px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+        }
+
+        img {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+    <img id="cat1" src="https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_960_720.jpg">
+    <img id="cat2" src="https://cdn.pixabay.com/photo/2021/07/13/11/34/cat-6463284_960_720.jpg">
+    <img id="cat3" src="https://cdn.pixabay.com/photo/2016/12/30/17/27/cat-1941089_960_720.jpg">
+    <img id="cat4" src="https://cdn.pixabay.com/photo/2022/01/18/07/38/cat-6946505_960_720.jpg">
+    <script>
+        function sleep(milliseconds) {
+            return new Promise(resolve => setTimeout(resolve, milliseconds));
+        }
+        const cat1 = document.getElementById('cat1');
+        const cat2 = document.getElementById('cat2');
+        const cat3 = document.getElementById('cat3');
+        const cat4 = document.getElementById('cat4');
+        async function cat() {
+            while (true) {
+                cat1.style.visibility = 'visible';
+                cat2.style.visibility = 'hidden';
+                cat3.style.visibility = 'hidden';
+                cat4.style.visibility = 'hidden';
+                await sleep(2000);
+                cat1.style.visibility = 'hidden';
+                cat2.style.visibility = 'visible';
+                cat3.style.visibility = 'hidden';
+                cat4.style.visibility = 'hidden';
+                await sleep(2000);
+                cat1.style.visibility = 'hidden';
+                cat2.style.visibility = 'hidden';
+                cat3.style.visibility = 'visible';
+                cat4.style.visibility = 'hidden';
+                await sleep(2000);
+                cat1.style.visibility = 'hidden';
+                cat2.style.visibility = 'hidden';
+                cat3.style.visibility = 'hidden';
+                cat4.style.visibility = 'visible';
+                await sleep(2000);
+            }
+
+        }
+        cat();  
+    </script>
+</body>
