@@ -21,7 +21,7 @@
         <h1>Empfehlungen von mir</h1>
         <h2>Wenn du meine Video-, Musik-, Rezept- und Textempfehlung sehen willst, dann gebe "<span class="underline">ls
                 advice</span>" ein.</h2>
-        <div class="console-container-a" style="text-align: left; font-family: 'Courier New', Courier, monospace;">
+        <form name="konsole" onsubmit="console()" class="console-container-a" style="text-align: left; font-family: 'Courier New', Courier, monospace;">
             <div class="console-header-a">
                 <div><span onclick="alert('Willst du wirklich abbrechen? Dann drücke nicht OK.')">🔴</span>
                     <span onclick="alert('Du willst meine Empfehlungen ausblenden? 😥')">🟡</span> <span
@@ -71,8 +71,8 @@
             <div class="recipe-advice-a">
                 <h1>Rezept-Empfehlungen</h1>
             </div>
-            <button onclick="console()">Enter</button>
-        </div>
+            <button type="submit">Enter</button>
+        </form>
         <div id="load-footer"></div>
     </div>
 </body>
