@@ -43,6 +43,8 @@ function consolemarginclear() {
 }
 
 function console() {
+    event.preventDefault();
+
     const typedConsolas = document.getElementById("terminalconsole").value;
     if (typedConsolas == "ls advice") {
         consolemarginclear();
