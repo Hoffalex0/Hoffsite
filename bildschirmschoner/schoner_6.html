@@ -1,0 +1,46 @@
+<body class="schoner-fünf">
+    <script>
+        var intervall = Math.random();
+        var img = document.querySelector('.logo');
+        document.getElementById('logo').style.setProperty('--top-position', intervall + 'px');
+        //TypeError
+    </script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            cursor: none;
+            font-size: 700px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+        }
+
+        :root {
+            --top-position: 0px;
+            --left-position: 0px;
+        }
+
+        #logo {
+            position: absolute;
+            top: var(--top-position);
+            left: var(--left-position);
+            animation: fliegen 10s infinite;
+        }
+
+        @keyframes fliegen {
+            0% {
+                top: 200px;
+                left: 0;
+            }
+
+            100% {
+                top: 200px;
+                left: 2000px;
+            }
+        }
+    </style>
+    <img id="logo" src="/images/logos/klima_logo.jpg">
+</body>
