@@ -635,10 +635,22 @@ ul {
 
 }
 
+.h-friends-m {
+    background-color: lime;
+    color: black;
+}
+
 .friends-m {
-    background-image: linear-gradient(to right, lime, orange);
-    padding: 1%;
-    margin: 1%;
+    background-image: linear-gradient(to bottom, lime, orange);
+    height: 500px;
+    width: 100%;
+    position: relative;
+    span {
+        position: absolute;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        font-size: xx-large;
+    }
 }
 
 /* #endregion */
@@ -1053,18 +1065,23 @@ ul {
     div {
         display: none;
     }
+
     #passworteingabe {
         border: blue solid 5px;
         border-radius: 10px;
     }
-        font-size: 20px;
+
+    font-size: 20px;
+
     .schwach {
         background-color: red;
     }
+
     .mittel {
         background-color: yellow;
         color: red;
     }
+
     .stark {
         background-color: lime;
         color: black;
@@ -1074,4 +1091,4 @@ ul {
 
 /* #endregion */
 
-/*#region THANKS TO ODINCAT!!! GOOD WORK! <3*/
+/*#region THANKS TO ODINCAT!!! GOOD WORK!*/

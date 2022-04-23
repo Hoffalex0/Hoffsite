@@ -19,7 +19,7 @@ function lighter() {
     if (currentCase == "Heller Modus") {
         area.style.background = "rgb(173, 173, 173)";
         document.querySelector(".inhalt-desk").style.background = "whitesmoke";
-        document.getElementById("nav").style.background = "rgb(173, 173, 173)"
+        document.getElementById("nav").style.background = "rgb(173, 173, 173)";
         document.getElementById("lighterswitch").value = "Dunkler Modus";
         document.getElementById("lighterswitch").style.background = "black";
         document.getElementById("lighterswitch").style.color = "whitesmoke";
@@ -35,7 +35,7 @@ function lighter() {
 
 function copytext() {
     navigator.clipboard.writeText("https://hoffsite.de/article/rollsseufz");
-    alert("Link kopiert");
+    alert("Link kopiert!");
 }
 
 function consolemarginclear() {
@@ -43,6 +43,8 @@ function consolemarginclear() {
 }
 
 function console() {
+    event.preventDefault();
+
     const typedConsolas = document.getElementById("terminalconsole").value;
     if (typedConsolas == "ls advice") {
         consolemarginclear();
@@ -101,6 +103,10 @@ function passwortPrüfen() {
     if (typedPasswort != "Passwort" || typedPasswort != "passwort") {
         scorePasswort += 1;
     }
+    if (typedPasswort.includes("hfflx") || typedPasswort.includes("Simon ist toll.")) {
+        scorePasswort += 1000000;
+        //nicht ganz ernst gemeint xD
+    }
     
     if (scorePasswort > 7) {
         document.querySelector('.schwach').style.display = "none";
@@ -119,12 +125,6 @@ function passwortPrüfen() {
     }
     var scorePasswort = 0;
 }
-
-        /*document.querySelector('.schwach').style.display = "block";
-        document.querySelector('.mittel').style.display = "none";
-        document.querySelector('.stark').style.display = "none"*/
-
-
 
 function mobilemenu() {
     ausgeklappt = !ausgeklappt;
