@@ -1,7 +1,7 @@
 /*Function of the changing cursor*/
 function cursor() {
     const thewholepage = document.querySelector('body');
-    thewholepage.style.cursor = 'url(/images/logos/ukraine_logo.jpg) 0 0, wait';
+    thewholepage.style.cursor = 'url(/images/logos/arbeit_logo.jpg) 0 0, wait';
     alert('Was ist mit dem Cursor los?')
 }
 

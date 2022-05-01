@@ -16,7 +16,7 @@ Ru: Это скрипт с моего сайта "hoffsite.de". Сообщайт
 - [x] Menschen glauben lassen, dass es die Hoffalex-Company gibt
 - [x] Schriftart ändern
 - [x] kommunistische Revolution
-- [ ] Revolution kommerzialisieren -> Revo-Lotion
+- [x] Revolution kommerzialisieren -> Revo-Lotion
 - [ ] mindestens 3 Artikel veröffentlicht haben
 - [ ] das letzte ToDo schreiben
 
