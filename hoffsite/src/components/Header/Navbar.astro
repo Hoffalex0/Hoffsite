@@ -1,0 +1,54 @@
+---
+import NavLink from "./NavLink.astro";
+
+interface NavLinkType {
+    href: string;
+    text: string;
+}
+
+// Damit uns nicht ständig wiederholen müssen, abstrahieren wir all unsere Links, die wir in der Navigation haben wollen, in ein Array. Dieses können später dann "auslegen" und die beiden Eigenschaften an unsere NavLink Komponente übergeben.
+const nav_links: NavLinkType[] = [
+    {
+        href: "/",
+        text: "Start"
+    },
+    {
+        href: "/articles",
+        text: "Artikel"
+    },
+    {
+        href: "/advice",
+        text: "Empfehlungen"
+    },
+    {
+        href: "/me",
+        text: "Über mich"
+    },
+    {
+        href: "/projects",
+        text: "Projekte"
+    }
+];
+---
+
+<ul id="nav">
+    <li><a href="https://hoffsite.de"><img src="/images/logos/klima_logo.jpg"></a></li>
+    {nav_links.map((link) => (
+        <NavLink href={link.href}>{link.text}</NavLink>
+    ))}
+    <li class="right"><a target="_blank" href="https://www.youtube.com/channel/UC1ZE6YN0wcV0nE1xpLI6fWg"><img
+                src="/images/icons/Youtube_icon.png"></a>
+    </li>
+    <li class="right"><a target="_blank" href="https://github.com/Hoffalex0"><img
+                src="/images/icons/Github_icon.png"></a>
+    </li>
+</ul>
+<div id="mobilenav">
+    <img style="float: left;" src="images/logos/klima_logo.jpg">
+    <img onclick="mobilemenu();" src="https://img.icons8.com/ios-glyphs/30/000000/menu--v1.png" />
+    <ul id="mobilenav-ul">
+    {nav_links.map((link) => (
+        <NavLink href={link.href}>{link.text}</NavLink>
+    ))}
+    </ul>
+</div>

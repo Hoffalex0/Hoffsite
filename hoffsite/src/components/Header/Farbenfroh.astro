@@ -1,0 +1,16 @@
+<script is:inline>
+    const images = ["/images/headers/header_prototype.jpg", "/images/headers/header_prototype2.jpg", "/images/headers/header_prototype3.jpg", "/images/headers/header_prototype4.jpg", "/images/headers/header_prototype5.jpg"];
+    function refresh_image() {
+        const image_id = Math.floor(Math.random() * images.length);
+        const image = document.getElementById("ausgabe-bild");
+        if(!image) throw new Error("Image does not exist");
+        image.src = images[image_id];
+    }
+</script>
+
+<div class="toprandom-i">
+    <div id="ausgabe">
+        <img height="120px" id="ausgabe-bild" src="/images/headers/header_prototype.jpg" />
+    </div>
+    <input class="random-button" type="image" src="images/icons/Dice_icon.png" onclick="refresh_image()">
+</div>

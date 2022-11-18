@@ -42,7 +42,7 @@ function consolemarginclear() {
     document.querySelector("#comandline-a input[type=text]").style.margin = "1%";
 }
 
-function console() {
+function console(event) {
     event.preventDefault();
 
     const typedConsolas = document.getElementById("terminalconsole").value;
