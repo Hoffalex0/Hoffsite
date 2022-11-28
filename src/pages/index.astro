@@ -1,0 +1,162 @@
+---
+import Default from "../layouts/Default.astro";
+---
+
+<Default title="Start">
+    <div class="intro-i">
+        <h1>Willkommen auf meiner Website. Hier ist jeder willkommen! 🌈</h1>
+    </div>
+    <hr class="separator" />
+    <div class="blog-preview-container">
+        <h2>Artikel-Vorschau</h2>
+        <div class="blog-preview-i">
+            <div class="mySlides-i fade-i">
+                <div class="numbertext-i">1 / 3</div>
+                <img
+                    src="/images/articles/rolls_seufz_bild.jpg"
+                    style="width:70%"
+                />
+                <div class="text-i">
+                    <h1>Rolls Seufz</h1>
+                    <p>
+                        Ein Text über das stressige Autofahren in Städten und
+                        den ökonomischen Widerspruch davon.
+                    </p>
+                    <a href="article/rollsseufz.html">{">>>"}Hier{"<<<"}</a>
+                </div>
+            </div>
+
+            <div class="mySlides-i fade-i">
+                <div class="numbertext-i">2 / 3</div>
+                <img
+                    src="https://cdn.pixabay.com/photo/2022/03/06/05/30/clouds-7050884_960_720.jpg"
+                    style="width:70%"
+                />
+                <div class="text-i">
+                    Hier kommt noch ein Text - VERSPROCHEN.
+                </div>
+            </div>
+
+            <div class="mySlides-i fade-i">
+                <div class="numbertext-i">3 / 3</div>
+                <img
+                    src="https://cdn.pixabay.com/photo/2022/03/06/05/30/clouds-7050884_960_720.jpg"
+                    style="width:70%"
+                />
+                <div class="text-i">
+                    Hier kommt noch ein Text - VERSPROCHEN.
+                </div>
+            </div>
+
+            <a class="prev-i" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next-i" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div class="dots-i">
+            <span class="dot-i" onclick="currentSlide(1)"></span>
+            <span class="dot-i" onclick="currentSlide(2)"></span>
+            <span class="dot-i" onclick="currentSlide(3)"></span>
+        </div>
+        <script is:inline>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides((slideIndex += n));
+            }
+
+            function currentSlide(n) {
+                showSlides((slideIndex = n));
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides-i");
+                var dots = document.getElementsByClassName("dot-i");
+                if (n > slides.length) {
+                    slideIndex = 1;
+                }
+                if (n < 1) {
+                    slideIndex = slides.length;
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(
+                        " active-i",
+                        ""
+                    );
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+    </div>
+    <div class="tools-i">
+        <a href="bildschirmschoner/schoner_übersicht.html">
+            <img src="/images/icons/widescreen.png" />
+            <h2>Bildschirmschoner</h2>
+        </a>
+        <a href="passwortprüfer">
+            <img src="/images/icons/key.jpg" />
+            <h2>Passwort-Prüfer</h2>
+        </a>
+        <a>
+            <img src="/images/icons/edu_hat.jpg" />
+            <h2>Bildung (nicht vorhanden)</h2>
+        </a>
+    </div>
+    <div class="projectpreview-container">
+        <h2 style="background-color: orange; width: 40%; color: black;">
+            Projekt-Vorschau
+        </h2>
+        <div class="projectpreview-i">
+            <div class="projectpreview-i-1">
+                <a href="projects/JugendForscht2022/start.html">
+                    <h1>JugendForscht-Projekt</h1>
+                    <img src="/images/icons/JF_Logo.png" />
+                    <h2>(Projektthema noch nicht bekannt.)</h2>
+                </a>
+            </div>
+            <div class="projectpreview-i-2">
+                <a href="zeichen.html">
+                    <h1>Kommata-Setzung-Plakat</h1>
+                    <img src="/images/icons/Table_icon.png" />
+                    <h2>...Für die Schule</h2>
+                </a>
+            </div>
+            <div class="projectpreview-i-3">
+                <a>
+                    <h1>Pflanzenprojekt</h1>
+                    <img src="/images/icons/Coming_Soon_icon.png" />
+                    <h2>Coming soon</h2>
+                </a>
+            </div>
+            <div class="projectpreview-i-4">
+                <a>
+                    <h1>Wir gedenken...</h1>
+                    <img src="/images/icons/Coming_Soon_icon.png" />
+                    <h2>Coming soon</h2>
+                </a>
+            </div>
+            <div class="projectpreview-i-1">
+                <a href="projects/JugendForscht2021/index.html">
+                    <h1>Altes JugendForscht-Projekt</h1>
+                    <img src="/images/icons/JF_Logo.png" />
+                    <h1>Projekt-Präsentation</h1>
+                    <h2>(Thema: Tinten - nicht zu nur zum Schreiben?)</h2>
+                </a>
+            </div>
+            <div class="projectpreview-i-5">
+                <a href="projects/Klima_Gremium/Klima_Gremium_Blog.html">
+                    <h1>Klimagremium in Buchholz - Der Blog</h1>
+                    <img src="/images/logos/world_logo.jpg" />
+                    <h2>Natürlich leicht verständlich und nicht cringe.</h2>
+                </a>
+            </div>
+        </div>
+    </div>
+</Default>
+
