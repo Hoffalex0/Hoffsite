@@ -575,6 +575,102 @@ ul {
 
 /* #endregion */
 
+/* #region Rosalinde-Blog*/
+.v-body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.v-overview {
+
+    h1,
+    div {
+        background-color: #cccccc;
+        padding: 10px;
+    }
+
+    h1 {
+        border-width: 2px 0 2px 0;
+    }
+
+    div {
+        margin: 10px;
+        text-align: left;
+        width: fit-content;
+    }
+
+    .v-topics {
+        font-weight: bolder;
+        font-size: large;
+    }
+
+}
+
+#v-recipes {
+    h1 {
+        padding: 10px;
+        border-width: 2px 0 2px 0;
+    }
+
+    dl,
+    h2 {
+        text-align: left;
+        margin: 10px;
+    }
+}
+
+#v-climate {
+    h1 {
+
+        padding: 10px;
+        border-width: 2px 0 2px 0;
+    }
+}
+
+#v-health {
+    h1 {
+        background-color: #363636;
+        padding: 10px;
+        border: cyan solid;
+        border-width: 2px 0 2px 0;
+        color: cyan;
+    }
+}
+
+#v-news {
+    h1 {
+        background-color: #363636;
+        padding: 10px;
+        border: yellow solid;
+        border-width: 2px 0 2px 0;
+        color: yellow;
+    }
+}
+
+#v-events {
+    h1 {
+        background-color: #363636;
+        padding: 10px;
+        border: lightcoral solid;
+        border-width: 2px 0 2px 0;
+        color: lightcoral;
+    }
+}
+
+#v-furtherreading {
+    h1 {
+        background-color: #363636;
+        padding: 10px;
+        border: white solid;
+        border-width: 2px 0 2px 0;
+        color: white;
+    }
+}
+
+/* #endregion */
+
 /* #region ABOUTME */
 .title-m {
     background-color: $pink;
@@ -645,6 +741,7 @@ ul {
     height: 500px;
     width: 100%;
     position: relative;
+
     span {
         position: absolute;
         font-family: 'Courier New', Courier, monospace;
