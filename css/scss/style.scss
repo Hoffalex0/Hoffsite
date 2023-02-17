@@ -585,6 +585,17 @@ ul {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.to-top {
+    top: 50%;
+    right: 0px;
+    width: 115px;
+    height: 0px;
+    text-align: right;
+    z-index: 9999;
+    margin-top: -15px;
+    background-color: #cccccc;
+}
+
 .v-overview {
 
     h1,
@@ -616,6 +627,19 @@ ul {
         border-width: 2px 0 2px 0;
     }
 
+    dl {
+        background-color: #cccccc;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 1rem;
+        gap: 1rem;
+
+        div {
+            width: 20%;
+        }
+    }
+
     dl,
     h2 {
         text-align: left;
@@ -631,44 +655,9 @@ ul {
     }
 }
 
-#v-health {
-    h1 {
-        background-color: #363636;
-        padding: 10px;
-        border: cyan solid;
-        border-width: 2px 0 2px 0;
-        color: cyan;
-    }
-}
-
-#v-news {
-    h1 {
-        background-color: #363636;
-        padding: 10px;
-        border: yellow solid;
-        border-width: 2px 0 2px 0;
-        color: yellow;
-    }
-}
-
-#v-events {
-    h1 {
-        background-color: #363636;
-        padding: 10px;
-        border: lightcoral solid;
-        border-width: 2px 0 2px 0;
-        color: lightcoral;
-    }
-}
-
-#v-furtherreading {
-    h1 {
-        background-color: #363636;
-        padding: 10px;
-        border: white solid;
-        border-width: 2px 0 2px 0;
-        color: white;
-    }
+h1 {
+    background-color: #cccccc;
+    padding: 10px;
 }
 
 /* #endregion */
