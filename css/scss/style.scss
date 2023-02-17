@@ -583,17 +583,21 @@ ul {
     padding-left: 10%;
     padding-right: 10%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    a {
+        color: deeppink;
+        text-decoration: underline;
+    }
 }
 
 .to-top {
-    top: 50%;
-    right: 0px;
-    width: 115px;
-    height: 0px;
-    text-align: right;
-    z-index: 9999;
-    margin-top: -15px;
-    background-color: #cccccc;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+    font-size: x-large;
+    background-color: deeppink;
+    color: #cccccc;
 }
 
 .v-overview {
@@ -606,6 +610,7 @@ ul {
 
     h1 {
         border-width: 2px 0 2px 0;
+        color: deeppink;
     }
 
     div {
@@ -627,7 +632,7 @@ ul {
         border-width: 2px 0 2px 0;
     }
 
-    dl {
+    .v-container {
         background-color: #cccccc;
         display: flex;
         flex-wrap: nowrap;
@@ -647,18 +652,20 @@ ul {
     }
 }
 
-#v-climate {
+#v-climate,
+#v-recipes,
+#v-health,
+#v-news,
+#v-events,
+#v-furtherreading {
     h1 {
-
+        background-color: #cccccc;
         padding: 10px;
         border-width: 2px 0 2px 0;
+        color: deeppink;
     }
 }
 
-h1 {
-    background-color: #cccccc;
-    padding: 10px;
-}
 
 /* #endregion */
 
