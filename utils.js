@@ -168,7 +168,7 @@ const loadFooter = async () => {
 };
 
 // Datum, auf das heruntergezählt wird.
-var countDownDate = new Date("Jul 22, 2029 00:00:00").getTime();
+var countDownDate = new Date("Oct 1, 2026 17:29:59").getTime();
 
 var x = setInterval(function () {
 
