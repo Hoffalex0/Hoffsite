@@ -1,36 +1,8 @@
 /*Function of the changing cursor*/
 function cursor() {
     const thewholepage = document.querySelector('body');
-    thewholepage.style.cursor = 'url(/images/logos/klima_logo.jpg) 0 0, wait';
+    thewholepage.style.cursor = 'url(/images/logo_neu_lila.png) 0 0, wait';
     alert('Was ist mit dem Cursor los?')
-}
-
-/*Function of the random image generator*/
-function imager() {
-    var images = ["/images/headers/header_prototype.jpg", "/images/headers/header_prototype2.jpg", "/images/headers/header_prototype3.jpg", "/images/headers/header_prototype4.jpg", "/images/headers/header_prototype5.jpg"];
-    var image = images[Math.floor(Math.random() * images.length)];
-    document.getElementById("ausgabe").innerHTML = '<img src="' + image + '">';
-}
-
-/*Function of the dark and light switch*/
-function lighter() {
-    const currentCase = document.getElementById("lighterswitch").value
-    const area = document.querySelector("body");
-    if (currentCase == "Heller Modus") {
-        area.style.background = "rgb(173, 173, 173)";
-        document.querySelector(".inhalt-desk").style.background = "whitesmoke";
-        document.getElementById("nav").style.background = "rgb(173, 173, 173)";
-        document.getElementById("lighterswitch").value = "Dunkler Modus";
-        document.getElementById("lighterswitch").style.background = "black";
-        document.getElementById("lighterswitch").style.color = "whitesmoke";
-    } else {
-        area.style.background = "black";
-        document.querySelector(".inhalt-desk").style.background = "#191919";
-        document.getElementById("nav").style.background = "black"
-        document.getElementById("lighterswitch").value = "Heller Modus";
-        document.getElementById("lighterswitch").style.background = "whitesmoke";
-        document.getElementById("lighterswitch").style.color = "black";
-    }
 }
 
 function copytext() {
@@ -86,10 +58,6 @@ function console() {
     } else alert('Error!');
 }
 
-/*Function of the rain-effect*/
-function rain() {
-    //Angefangen!
-}
 function passwortPrüfen() {
     var scorePasswort = 0;
     var typedPasswort = document.getElementById("passworteingabe").value;
@@ -103,7 +71,7 @@ function passwortPrüfen() {
     if (typedPasswort != "Passwort" || typedPasswort != "passwort") {
         scorePasswort += 1;
     }
-    if (typedPasswort.includes("hfflx") || typedPasswort.includes("Simon ist toll.")) {
+    if (typedPasswort.includes("hfflx") || typedPasswort.includes("Alex ist toll.")) {
         scorePasswort += 1000000;
         //nicht ganz ernst gemeint xD
     }
@@ -191,7 +159,6 @@ var x = setInterval(function () {
 }, 1000);
 
 var ausgeklappt = false;
-imager();
 loadNavbar();
 loadFooter();
 /*Thanks to Odincat!*/

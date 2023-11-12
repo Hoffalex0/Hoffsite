@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <title>Hoffsite // Ein Artikel</title>
+    <meta charset="utf-8" />
+    <meta name="title" content="Hoffsite - Hofsite ist Fake." />
+    <meta name="description" content="Die Seite von hfflx.">
+    <link rel="shortcut icon" type="image/jpg" href="/images/logos/favicon_neu.jpg" />
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+    <script src="/utils.js"></script>
+    <div id="load-nav"></div>
+    <div class="inhalt-desk">
+        <div class="article-ba">
+            <h1>So könnten diese Buchholzer Straßen aussehen</h1>
+            <hr class="trenner-ba">
+            <div class="bildunduntertitel-ba">
+                <img src="/images/articles/buchholzer_NL/thumbnail_dutchholz.png">
+                <span>Mithilfe eines <a href="https://dutchcyclinglifestyle.com/de" target="_blank">KI-Tools des
+                        Tourimusverbands Niederlande</a> habe ich einige Straßen in Buchholz aus dem Google Street View
+                    umwandeln lassen in klassische niederländische Straßen. Das heißt: Fokus auf Rad/Fußverkehr/ÖPNV,
+                    viele Pflanzen, Bänke etc. Ich garantiere nicht, dass die Umwandlung der Straßen immer sinnvoll ist
+                    (vorallem wenn man Bus-/Lieferrouten bedenkt), es kann aber der Inspiration dienen. Schließlich
+                    waren vor nicht allzulanger Zeit die Straßen nicht so breit wie heute und die Welt hat trotzdem
+                    funktioniert.</span>
+            </div>
+            <p>
+                Was ist der Sinn des ganzen? Grüne Ideologie??? Nein. Strecken, die mit dem Fahrrad, zu Fuß oder mit dem
+                ÖPNV zurückgelegt werden, sind um einiges klimafreundlicher als die mit Auto. Das sagt das
+                Umweltbundesamt
+                dazu:
+            <div style="display: flex;">
+                <img style="width: 50%;"
+                    src="https://www.umweltbundesamt.de/sites/default/files/medien/366/bilder/klimawirkung_des_personennahverkehrs.png">
+                <img style="width: 50%;"
+                    src="https://www.umweltbundesamt.de/sites/default/files/medien/366/bilder/klimawirkung_des_gueternahverkehrs.png">
+            </div>
+            Daher ist es nur logisch, den Fahrradverkehr zu stärken und die Städte autofreier zu machen. Die Niederlande
+            macht das exzellent vor. Die hier vom <a href="https://dutchcyclinglifestyle.com/de"
+                target="_blank">Tool</a> umgewandelten Straßen sind die Straßen, die ich recht zufällig ausgewählt habe.
+            Es
+            kann sein, dass diese Straßen für Buslinien relevant sind (ich habe aber versucht darauf zu achten).
+            </p>
+            <p>
+                So oder so ähnlich schön könnte es in Buchholz aussehen:
+            <p>
+            <div id="comparison">
+                <figure style="background-image: url(/images/articles/buchholzer_NL/bremer_straße.jpg);">
+                    <div id="divisor"
+                        style="background-image: url(/images/articles/buchholzer_NL/dutch_Bremer_Straße.png);"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor(this)">
+            </div>
+            Bremer Straße 163 (Höhe Sendemast) Das Bild ist etwas verwirrend, aber das Konzept wird klar.
+            </p>
+            <p>
+                <div id="comparison">
+                    <figure style="background-image: url(/images/articles/buchholzer_NL/lehrer-schwägermann-straße.jpg);">
+                        <div id="divisor"
+                            style="background-image: url(/images/articles/buchholzer_NL/dutch_lehrer_schwägermann_straße.png);">
+                        </div>
+                    </figure>
+                    <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor(this)">
+                </div>
+                Lehrer-Schwägermann-Straße (Zwischen Bahnhof Sprötze und Grundschule Sprötze) Hier fahren zwar einige wenige Busse, diese könnten die Schule aber auch von einer neuen Station Sanderfeld erreichen oder am Bahnhof Sprötze abfahren.
+                </p>
+            <p>
+            <div id="comparison">
+                <figure style="background-image: url(/images/articles/buchholzer_NL/steinbecker_Mühlenweg.jpg);">
+                    <div id="divisor"
+                        style="background-image: url(/images/articles/buchholzer_NL/steinbecker_Mühlenweg_DUTCH.png);">
+                    </div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor(this)">
+            </div>
+            Steinbecker Mühlenweg 19 (Kreuzung Steinbecker Mühlenweg/Fuchsloch)
+            </p>
+            <p>
+            <div id="comparison">
+                <figure style="background-image: url(/images/articles/buchholzer_NL/kirchstraße.jpg);">
+                    <div id="divisor"
+                        style="background-image: url(/images/articles/buchholzer_NL/dutch_kirchstraße1.png);">
+                    </div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor(this)">
+            </div>
+            Kirchenstraße 1 (Höhe St. Paulus)
+            </p>
+            <p>
+            <div id="comparison">
+                <figure style="background-image: url(/images/articles/buchholzer_NL/wiesenstraße.jpg);">
+                    <div id="divisor"
+                        style="background-image: url(/images/articles/buchholzer_NL/dutch_wiesenstraße.png);"></div>
+                </figure>
+                <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor(this)">
+            </div>
+            Wiesenweg (Zugang zur Wiesenschule)
+            </p>
+            <p>
+                Natürlich fehlen viele Straßen. Das KI-Tool ist kostenlos und ohne Anmeldung verwendbar und kann auch
+                hochgeladene Fotos von Straßen verarbeiten. <a href="https://dutchcyclinglifestyle.com/de"
+                    target="_blank">Klicke hier</a>
+            </p>
+            <script>
+                function moveDivisor(slider) {
+                    var divisor = slider.parentNode.querySelector('#divisor');
+                    divisor.style.width = slider.value + "%";
+                }
+            </script>
+            <a target="_blank" class="tweet-ba" title="Per Twitter teilen."
+                href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.hoffsite.de%2Farticle%2Fluetzerath&text=Ich%20empfehle%20diesen%20Artikel%20weiter.">
+                <img src="/images/icons/tweet-it.png">
+            </a>
+            </a>
+            <a class="mail-ba" title="Per Mail teilen." href="mailto:?subject=Empfehlung eines Artikels">
+                <img src="/images/icons/mail-it.png">
+            </a>
+        </div>
+        <div id="load-footer"></div>
+    </div>
+</body>
+
+</html>

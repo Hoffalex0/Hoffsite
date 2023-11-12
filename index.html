@@ -6,111 +6,64 @@
     <meta charset="utf-8" />
     <meta name="title" content="Hoffsite - Hofsite ist Fake." />
     <meta name="description" content="Die Seite von hfflx.">
-    <meta name="keywords" content="hfflx, Simon hfflx, Simon Buchholz, Hoffalex">
+    <meta name="keywords" content="hfflx, Hoffalex, Alex">
     <meta name="author" content="hfflx">
-    <link rel="shortcut icon" type="image/jpg" href="images/logos/klima_logo.jpg" />
+    <link rel="shortcut icon" type="image/jpg" href="images/logos/favicon_neu.jpg" />
     <link rel="stylesheet" href="/css/style.css" />
 </head>
 
 <body>
+    <div class="intro-i">
+        <h1>Willkommen auf meiner Website. <br> Hier ist jeder willkommen! 🌈</h1>
+    </div>
+    <script src="/utils.js"></script>
+    <div id="load-nav"></div>
     <div class="inhalt-desk">
-        <div class="toprandom-i">
-            <div id="ausgabe"></div>
-            <input class="random-button" type="image" src="images/icons/Dice_icon.png" onclick="imager()">
-        </div>
-        <script src="/utils.js"></script>
-        <div id="load-nav"></div>
-        <div class="intro-i">
-            <h1>Willkommen auf meiner Website. Hier ist jeder willkommen! 🌈 (Diese Seite wird bald umgebaut.)</h1>
-        </div>
-        <hr class="separator">
         <div class="blog-preview-container">
-            <h2>Artikel-Vorschau</h2>
+            <h2>Neuste Blogartikel</h2>
             <div class="blog-preview-i">
-                <div class="mySlides-i fade-i">
-                    <div class="numbertext-i">1 / 3</div>
-                    <img src="images/articles/luetzerath.jpg" style="width:70%">
-                    <div class="text-i">
-                        <h1>Meine Teilnahme an der Lützerath-Großdemo</h1>
-                        <p>Ein kurzer Bericht vom 14.01.2023.</p>
-                        <a href="article/luetzerath1401.html">>>>Hier<<<</a>
-                    </div>
+                <div>
+                    <img src="images/articles/buchholzer_NL/thumbnail_dutchholz.png">
+                    <h1>So könnten diese Buchholzer Straßen aussehen</h1>
+                    <p> Mithilfe eines KI-Tools des Tourimusverbands Niederlande habe ich einige Straßen in Buchholz aus dem Google Street View umwandeln lassen in klassische niederländische Straßen.</p>
+                    <a href="article/niederlande-buchholz.html">Weiterlesen</a>
                 </div>
-
-                <div class="mySlides-i fade-i">
-                    <div class="numbertext-i">2 / 3</div>
-                    <img src="images/articles/rolls_seufz_bild.jpg"
-                        style="width:70%">
-                    <div class="text-i">
-                        <h1>Rolls Seufz</h1>
-                        <p>Ein Text über das stressige Autofahren in Städten und den ökonomischen Widerspruch davon.</p>
-                        <a href="article/rollsseufz.html">>>>Hier<<<</a>
-                    </div>
+                <div>
+                    <img src="images/articles/kölner_dom.jpg">
+                    <h1>Was soll aus dem Kölner Dom werden?</h1>
+                    <p>...Nach der atheistischen Weltrevolution. Hier ein paar Ideen.</p>
+                    <a href="article/kölner-dom.html">Weiterlesen</a>
                 </div>
-
-                <div class="mySlides-i fade-i">
-                    <div class="numbertext-i">3 / 3</div>
-                    <img src="https://cdn.pixabay.com/photo/2022/03/06/05/30/clouds-7050884_960_720.jpg"
-                        style="width:70%">
-                    <div class="text-i">Hier kommt noch ein Text - VERSPROCHEN.</div>
+                <div>
+                    <img src="images/articles/werwolf.jpg">
+                    <h1>Neue Figuren für Werwolf (Idee)</h1>
+                    <p>Mir sind beim Werwolf in der Schule spielen am Ende des Schuljahrs 3 weitere Figuren eingefallen.</p>
+                    <a href="article/neue-werwolf-figuren.html">Weiterlesen</a>
                 </div>
-
-                <a class="prev-i" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next-i" onclick="plusSlides(1)">&#10095;</a>
-
+                <div>
+                    <img src="images/articles/luetzerath.jpg">
+                    <h1>Meine Teilnahme an der Lützerath-Großdemo</h1>
+                    <p>Ein kurzer Bericht vom 14.01.2023.</p>
+                    <a href="article/luetzerath1401.html">Weiterlesen</a>
+                </div>
+                <div>
+                    <img src="images/articles/rolls_seufz_bild.jpg">
+                    <h1>Rolls Seufz</h1>
+                    <p>Ein Text über das stressige Autofahren in Städten und den ökonomischen Widerspruch davon.</p>
+                    <a href="article/rollsseufz.html">Weiterlesen</a>
+                </div>
             </div>
-            <br>
-
-            <div class="dots-i">
-                <span class="dot-i" onclick="currentSlide(1)"></span>
-                <span class="dot-i" onclick="currentSlide(2)"></span>
-                <span class="dot-i" onclick="currentSlide(3)"></span>
-            </div>
-            <script>
-                var slideIndex = 1;
-                showSlides(slideIndex);
-
-                function plusSlides(n) {
-                    showSlides(slideIndex += n);
-                }
-
-                function currentSlide(n) {
-                    showSlides(slideIndex = n);
-                }
-
-                function showSlides(n) {
-                    var i;
-                    var slides = document.getElementsByClassName("mySlides-i");
-                    var dots = document.getElementsByClassName("dot-i");
-                    if (n > slides.length) { slideIndex = 1 }
-                    if (n < 1) { slideIndex = slides.length }
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active-i", "");
-                    }
-                    slides[slideIndex - 1].style.display = "block";
-                    dots[slideIndex - 1].className += " active";
-                }
-            </script>
-
-        </div>
-        <div class="tools-i">
-            <a href="bildschirmschoner/schoner_übersicht.html">
-                <img src="images/icons/widescreen.png">
-                <h2>Bildschirmschoner</h2>
-            </a>
-            <a href="passwortprüfer.html">
-                <img src="images/icons/key.jpg">
-                <h2>Passwort-Prüfer (geplant)</h2>
-            </a>
-            <img src="images/icons/edu_hat.jpg">
-            <h2>Bildung (nicht vorhanden)</h2>
         </div>
         <div class="projectpreview-container">
-            <h2 style="background-color: orange; width: 40%; color: black;">Projekt-Vorschau</h2>
+            <h2>Projekte/Unterseiten</h2>
             <div class="projectpreview-i">
+                <div class="projectpreview-i-3">
+                    <a href="projects/vegan/start.html">
+                        <h1>Tante Alexs Tipps</h1>
+                        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.jedes-essen-zaehlt.de%2Fimg%2Fvegan.png&f=1&nofb=1&ipt=adfd9616e22c26db6718034509c11f4d6a959530280c10ea16216cc5bfcdbd4e&ipo=images">
+                        <h2>Einige vegane Küchentipps und Rezepte</h2>
+                    </a>
+                </div>
                 <div class="projectpreview-i-1">
                     <a href="projects/JugendForscht2022/start.html">
                         <h1>JugendForscht-Projekt-</h1>
@@ -130,7 +83,7 @@
                         <h1>Altes JugendForscht-Projekt</h1>
                         <img src="images/icons/JF_Logo.png">
                         <h1>Projekt-Präsentation</h1>
-                        <h2>(Thema: Tinten - nicht zu nur zum Schreiben?)</h2>
+                        <h2>(Thema: Tinten - nicht nur zum Schreiben?)</h2>
                     </a>
                 </div>
             </div>
