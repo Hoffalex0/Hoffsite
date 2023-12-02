@@ -128,7 +128,7 @@ body {
 
 #mobilenav {
     display: none;
-    background-color: $green;
+    background-color: $indigo;
     padding: 50px;
 
     img {
@@ -178,11 +178,43 @@ ul {
                 border-bottom: 4px solid transparent;
 
                 &.active {
-                    border-bottom: 4px solid white;
+                    border-bottom: 4px solid transparent;
+                    border-image: repeating-linear-gradient(
+                        to right,
+                        #e40013 0%,
+                        #e40013 16%,
+                        #fd8d20 16%,
+                        #fd8d20 32%,
+                        #feee2e 32%,
+                        #feee2e 48%,
+                        #0c8222 48%,
+                        #0c8222 64%,
+                        #114efc 64%,
+                        #114efc 80%,
+                        #770288 80%,
+                        #770288 100%
+                      );
+                    border-image-slice: 1;
                 }
 
                 &:hover {
-                    border-bottom: 4px solid white;
+                    border-bottom: 4px solid transparent;
+                    border-image: repeating-linear-gradient(
+                        to right,
+                        #e40013 0%,
+                        #e40013 16%,
+                        #fd8d20 16%,
+                        #fd8d20 32%,
+                        #feee2e 32%,
+                        #feee2e 48%,
+                        #0c8222 48%,
+                        #0c8222 64%,
+                        #114efc 64%,
+                        #114efc 80%,
+                        #770288 80%,
+                        #770288 100%
+                      );
+                    border-image-slice: 1;
                     text-decoration: none;
                 }
 
